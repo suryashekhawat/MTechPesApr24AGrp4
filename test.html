@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Similo Algorithm Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+
+        .test-section {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .test-button {
+            background: #3498db;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 5px;
+        }
+
+        .test-button:hover {
+            background: #2980b9;
+        }
+
+        .test-input {
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            margin: 5px;
+        }
+
+        .result {
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 4px;
+            background: #e8f5e8;
+            border-left: 4px solid #27ae60;
+        }
+
+        .result.error {
+            background: #ffeaea;
+            border-left-color: #e74c3c;
+        }
+
+        .highlighted {
+            border: 3px solid #e74c3c !important;
+            background: #fff5f5 !important;
+        }
+
+        .test-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 15px 0;
+        }
+
+        .test-card {
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            text-align: center;
+            background: white;
+        }
+
+        .test-card:hover {
+            border-color: #3498db;
+        }
+
+        .score-info {
+            font-size: 12px;
+            color: #666;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🧠 Similo Algorithm Test Suite</h1>
+    
+    <div class="test-section">
+        <h2>Test 1: Basic Element Matching</h2>
+        <p>Test basic functionality with simple elements</p>
+        
+        <div class="test-grid">
+            <div class="test-card" id="original-btn">
+                <button class="test-button">Original Button</button>
+                <div class="score-info">ID: original-btn</div>
+            </div>
+            
+            <div class="test-card">
+                <button class="test-button">Similar Button</button>
+                <div class="score-info">Same class, different text</div>
+            </div>
+            
+            <div class="test-card">
+                <button class="test-button">Different Button</button>
+                <div class="score-info">Different text</div>
+            </div>
+        </div>
+        
+        <button onclick="runTest1()" class="test-button">Run Test 1</button>
+        <div id="result1"></div>
+    </div>
+
+    <div class="test-section">
+        <h2>Test 2: Text Content Matching</h2>
+        <p>Test text-based similarity</p>
+        
+        <div class="test-grid">
+            <div class="test-card">
+                <input type="text" class="test-input" placeholder="Enter your name" value="John Doe">
+                <div class="score-info">Placeholder: Enter your name</div>
+            </div>
+            
+            <div class="test-card">
+                <input type="text" class="test-input" placeholder="Enter your name" value="Jane Smith">
+                <div class="score-info">Same placeholder</div>
+            </div>
+            
+            <div class="test-card">
+                <input type="text" class="test-input" placeholder="Email address">
+                <div class="score-info">Different placeholder</div>
+            </div>
+        </div>
+        
+        <button onclick="runTest2()" class="test-button">Run Test 2</button>
+        <div id="result2"></div>
+    </div>
+
+    <div class="test-section">
+        <h2>Test 3: ARIA Attributes</h2>
+        <p>Test accessibility attribute matching</p>
+        
+        <div class="test-grid">
+            <div class="test-card">
+                <button class="test-button" aria-label="Save changes">Save</button>
+                <div class="score-info">ARIA: Save changes</div>
+            </div>
+            
+            <div class="test-card">
+                <button class="test-button" aria-label="Save changes">Submit</button>
+                <div class="score-info">Same ARIA label</div>
+            </div>
+            
+            <div class="test-card">
+                <button class="test-button" aria-label="Delete item">Delete</button>
+                <div class="score-info">Different ARIA label</div>
+            </div>
+        </div>
+        
+        <button onclick="runTest3()" class="test-button">Run Test 3</button>
+        <div id="result3"></div>
+    </div>
+
+    <div class="test-section">
+        <h2>Test 4: Class Matching</h2>
+        <p>Test CSS class similarity</p>
+        
+        <div class="test-grid">
+            <div class="test-card">
+                <button class="test-button primary">Primary Button</button>
+                <div class="score-info">Classes: test-button primary</div>
+            </div>
+            
+            <div class="test-card">
+                <button class="test-button primary">Another Primary</button>
+                <div class="score-info">Same classes</div>
+            </div>
+            
+            <div class="test-card">
+                <button class="test-button secondary">Secondary Button</button>
+                <div class="score-info">Different classes</div>
+            </div>
+        </div>
+        
+        <button onclick="runTest4()" class="test-button">Run Test 4</button>
+        <div id="result4"></div>
+    </div>
+
+    <div class="test-section">
+        <h2>Test 5: Advanced Options</h2>
+        <p>Test with custom options and weights</p>
+        
+        <div class="test-grid">
+            <div class="test-card" id="target-element">
+                <button class="test-button" name="submit">Target Element</button>
+                <div class="score-info">ID: target-element, name: submit</div>
+            </div>
+            
+            <div class="test-card">
+                <button class="test-button" name="submit">Similar Element</button>
+                <div class="score-info">Same name attribute</div>
+            </div>
+            
+            <div class="test-card">
+                <button class="test-button">Different Element</button>
+                <div class="score-info">No name attribute</div>
+            </div>
+        </div>
+        
+        <button onclick="runTest5()" class="test-button">Run Test 5</button>
+        <div id="result5"></div>
+    </div>
+
+    <div class="test-section">
+        <h2>Test 6: Multiple Results</h2>
+        <p>Test finding multiple similar elements</p>
+        
+        <div class="test-grid">
+            <div class="test-card">
+                <button class="test-button">Button 1</button>
+                <div class="score-info">Similar button</div>
+            </div>
+            
+            <div class="test-card">
+                <button class="test-button">Button 2</button>
+                <div class="score-info">Similar button</div>
+            </div>
+            
+            <div class="test-card">
+                <button class="test-button">Button 3</button>
+                <div class="score-info">Similar button</div>
+            </div>
+        </div>
+        
+        <button onclick="runTest6()" class="test-button">Run Test 6</button>
+        <div id="result6"></div>
+    </div>
+
+    <script src="similo.js"></script>
+    <script>
+        function clearHighlights() {
+            document.querySelectorAll('*').forEach(element => {
+                element.classList.remove('highlighted');
+                element.style.border = '';
+                element.style.outline = '';
+            });
+        }
+
+        function runTest1() {
+            clearHighlights();
+            const source = document.getElementById('original-btn');
+            const result = findMostSimilarElement(source);
+            
+            const resultDiv = document.getElementById('result1');
+            if (result) {
+                result.classList.add('highlighted');
+                resultDiv.innerHTML = `
+                    <div class="result">
+                        <strong>Test 1 Passed!</strong><br>
+                        Found similar element: ${result.tagName.toLowerCase()}<br>
+                        Classes: ${result.className}<br>
+                        Text: "${result.textContent.trim()}"
+                    </div>
+                `;
+            } else {
+                resultDiv.innerHTML = `
+                    <div class="result error">
+                        <strong>Test 1 Failed!</strong><br>
+                        No similar element found.
+                    </div>
+                `;
+            }
+        }
+
+        function runTest2() {
+            clearHighlights();
+            const source = document.querySelector('input[placeholder="Enter your name"]');
+            const result = findMostSimilarElement(source);
+            
+            const resultDiv = document.getElementById('result2');
+            if (result) {
+                result.classList.add('highlighted');
+                resultDiv.innerHTML = `
+                    <div class="result">
+                        <strong>Test 2 Passed!</strong><br>
+                        Found similar input: ${result.tagName.toLowerCase()}<br>
+                        Placeholder: "${result.placeholder}"<br>
+                        Value: "${result.value}"
+                    </div>
+                `;
+            } else {
+                resultDiv.innerHTML = `
+                    <div class="result error">
+                        <strong>Test 2 Failed!</strong><br>
+                        No similar input found.
+                    </div>
+                `;
+            }
+        }
+
+        function runTest3() {
+            clearHighlights();
+            const source = document.querySelector('button[aria-label="Save changes"]');
+            const result = findMostSimilarElement(source);
+            
+            const resultDiv = document.getElementById('result3');
+            if (result) {
+                result.classList.add('highlighted');
+                resultDiv.innerHTML = `
+                    <div class="result">
+                        <strong>Test 3 Passed!</strong><br>
+                        Found similar button: ${result.tagName.toLowerCase()}<br>
+                        ARIA Label: "${result.getAttribute('aria-label')}"<br>
+                        Text: "${result.textContent.trim()}"
+                    </div>
+                `;
+            } else {
+                resultDiv.innerHTML = `
+                    <div class="result error">
+                        <strong>Test 3 Failed!</strong><br>
+                        No similar button found.
+                    </div>
+                `;
+            }
+        }
+
+        function runTest4() {
+            clearHighlights();
+            const source = document.querySelector('button.primary');
+            const result = findMostSimilarElement(source);
+            
+            const resultDiv = document.getElementById('result4');
+            if (result) {
+                result.classList.add('highlighted');
+                resultDiv.innerHTML = `
+                    <div class="result">
+                        <strong>Test 4 Passed!</strong><br>
+                        Found similar button: ${result.tagName.toLowerCase()}<br>
+                        Classes: ${result.className}<br>
+                        Text: "${result.textContent.trim()}"
+                    </div>
+                `;
+            } else {
+                resultDiv.innerHTML = `
+                    <div class="result error">
+                        <strong>Test 4 Failed!</strong><br>
+                        No similar button found.
+                    </div>
+                `;
+            }
+        }
+
+        function runTest5() {
+            clearHighlights();
+            const source = document.getElementById('target-element');
+            
+            // Test with custom weights
+            const customWeights = {
+                TAG_NAME: 3,
+                ID: 8,  // Higher weight for ID
+                CLASS: 2,
+                TEXT_CONTENT: 4,
+                TEXT_PARTIAL: 2,
+                NAME_ATTR: 5,  // Higher weight for name
+                PLACEHOLDER: 2,
+                ARIA_LABEL: 3,
+                ARIA_DESCRIBEDBY: 3,
+                POSITION: 1,
+                VISIBLE: 1,
+                INTERACTIVE: 2
+            };
+            
+            const result = findMostSimilarElement(source, {}, customWeights);
+            
+            const resultDiv = document.getElementById('result5');
+            if (result) {
+                result.classList.add('highlighted');
+                resultDiv.innerHTML = `
+                    <div class="result">
+                        <strong>Test 5 Passed!</strong><br>
+                        Found similar element with custom weights<br>
+                        Element: ${result.tagName.toLowerCase()}<br>
+                        Name: "${result.name}"<br>
+                        Classes: ${result.className}
+                    </div>
+                `;
+            } else {
+                resultDiv.innerHTML = `
+                    <div class="result error">
+                        <strong>Test 5 Failed!</strong><br>
+                        No similar element found with custom weights.
+                    </div>
+                `;
+            }
+        }
+
+        function runTest6() {
+            clearHighlights();
+            const source = document.querySelector('button.test-button');
+            const results = findSimilarElements(source, { maxResults: 3 });
+            
+            const resultDiv = document.getElementById('result6');
+            if (results.length > 0) {
+                results.forEach(({element, score}, index) => {
+                    element.classList.add('highlighted');
+                    element.style.borderColor = ['#e74c3c', '#3498db', '#27ae60'][index];
+                });
+                
+                resultDiv.innerHTML = `
+                    <div class="result">
+                        <strong>Test 6 Passed!</strong><br>
+                        Found ${results.length} similar elements:<br>
+                        ${results.map(({element, score}, index) => 
+                            `${index + 1}. Score: ${score}, Text: "${element.textContent.trim()}"`
+                        ).join('<br>')}
+                    </div>
+                `;
+            } else {
+                resultDiv.innerHTML = `
+                    <div class="result error">
+                        <strong>Test 6 Failed!</strong><br>
+                        No similar elements found.
+                    </div>
+                `;
+            }
+        }
+
+        // Initialize tests
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Similo Test Suite loaded successfully!');
+            console.log('Available functions:', Object.keys(window.Similo));
+        });
+    </script>
+</body>
+</html> 

@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VON Similo Algorithm Demo</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            background: white;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #34495e;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+
+        .demo-section {
+            margin: 30px 0;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background: #fafafa;
+        }
+
+        .button {
+            background: #3498db;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 5px;
+            font-size: 14px;
+        }
+
+        .button:hover {
+            background: #2980b9;
+        }
+
+        .button.secondary {
+            background: #95a5a6;
+        }
+
+        .button.secondary:hover {
+            background: #7f8c8d;
+        }
+
+        .button.success {
+            background: #27ae60;
+        }
+
+        .button.success:hover {
+            background: #229954;
+        }
+
+        .input-field {
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 5px;
+            font-size: 14px;
+        }
+
+        .result {
+            margin: 15px 0;
+            padding: 15px;
+            border-radius: 5px;
+            background: #e8f5e8;
+            border-left: 4px solid #27ae60;
+        }
+
+        .result.error {
+            background: #ffeaea;
+            border-left-color: #e74c3c;
+        }
+
+        .result.info {
+            background: #e3f2fd;
+            border-left-color: #2196f3;
+        }
+
+        .element-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        .element-card {
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            text-align: center;
+            background: white;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .element-card:hover {
+            border-color: #3498db;
+            transform: translateY(-2px);
+        }
+
+        .element-card.highlighted {
+            border-color: #e74c3c;
+            background: #fff5f5;
+        }
+
+        .score-display {
+            font-size: 12px;
+            color: #666;
+            margin-top: 10px;
+        }
+
+        .controls {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            align-items: center;
+            margin: 15px 0;
+        }
+
+        .form-group {
+            margin: 15px 0;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .code-block {
+            background: #2c3e50;
+            color: #ecf0f1;
+            padding: 15px;
+            border-radius: 5px;
+            font-family: 'Courier New', monospace;
+            overflow-x: auto;
+            margin: 15px 0;
+        }
+
+        .tabs {
+            display: flex;
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 20px;
+        }
+
+        .tab {
+            padding: 10px 20px;
+            cursor: pointer;
+            border: none;
+            background: none;
+            border-bottom: 2px solid transparent;
+        }
+
+        .tab.active {
+            border-bottom-color: #3498db;
+            color: #3498db;
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        .score-breakdown {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 15px 0;
+        }
+
+        .score-card {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .score-card.visual {
+            border-left: 4px solid #e74c3c;
+        }
+
+        .score-card.object {
+            border-left: 4px solid #3498db;
+        }
+
+        .score-card.neighborhood {
+            border-left: 4px solid #27ae60;
+        }
+
+        .score-value {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        .score-label {
+            font-size: 14px;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .comparison-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .comparison-section {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+        }
+
+        .comparison-section h4 {
+            margin-top: 0;
+            color: #2c3e50;
+        }
+
+        .neighborhood-demo {
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 5px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        .parent-container {
+            background: #e9ecef;
+            border: 2px solid #6c757d;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 10px 0;
+        }
+
+        .sibling-group {
+            display: flex;
+            gap: 10px;
+            margin: 10px 0;
+            flex-wrap: wrap;
+        }
+
+        .sibling-element {
+            background: #fff;
+            border: 1px solid #adb5bd;
+            border-radius: 3px;
+            padding: 8px;
+            font-size: 12px;
+            min-width: 80px;
+            text-align: center;
+        }
+
+        .highlighted {
+            border: 3px solid #e74c3c !important;
+            background: #fff5f5 !important;
+        }
+
+        .visual-demo {
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 5px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        .position-demo {
+            position: relative;
+            height: 200px;
+            background: #e9ecef;
+            border: 1px solid #6c757d;
+            border-radius: 5px;
+            margin: 15px 0;
+        }
+
+        .demo-element {
+            position: absolute;
+            background: #3498db;
+            color: white;
+            padding: 10px;
+            border-radius: 3px;
+            font-size: 12px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .demo-element:hover {
+            transform: scale(1.05);
+        }
+
+        .demo-element.source {
+            background: #e74c3c;
+        }
+
+        .demo-element.candidate {
+            background: #27ae60;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🧠 VON Similo Algorithm Demo</h1>
+        <p style="text-align: center; color: #666; margin-bottom: 30px;">
+            Visual + Object + Neighborhood similarity-based web element localization
+        </p>
+
+        <div class="tabs">
+            <button class="tab active" onclick="showTab('demo')">Demo</button>
+            <button class="tab" onclick="showTab('visual')">Visual</button>
+            <button class="tab" onclick="showTab('object')">Object</button>
+            <button class="tab" onclick="showTab('neighborhood')">Neighborhood</button>
+            <button class="tab" onclick="showTab('examples')">Examples</button>
+        </div>
+
+        <!-- Demo Tab -->
+        <div id="demo" class="tab-content active">
+            <h2>Interactive VON Similo Demo</h2>
+            
+            <div class="demo-section">
+                <h3>Test Elements</h3>
+                <p>Click on any element below to use it as a source, then find similar elements using VON Similo:</p>
+                
+                <div class="element-grid">
+                    <div class="element-card" id="submit-btn" onclick="selectSource(this)">
+                        <button class="button success">Submit Form</button>
+                        <div class="score-display">ID: submit-btn, Position: Top-left</div>
+                    </div>
+                    
+                    <div class="element-card" onclick="selectSource(this)">
+                        <button class="button">Click Me</button>
+                        <div class="score-display">Class: button, Position: Top-right</div>
+                    </div>
+                    
+                    <div class="element-card" onclick="selectSource(this)">
+                        <input type="text" class="input-field" placeholder="Enter your name" value="John Doe">
+                        <div class="score-display">Placeholder: Enter your name</div>
+                    </div>
+                    
+                    <div class="element-card" onclick="selectSource(this)">
+                        <a href="#" class="button secondary">Learn More</a>
+                        <div class="score-display">Text: Learn More, Link element</div>
+                    </div>
+                    
+                    <div class="element-card" onclick="selectSource(this)">
+                        <button class="button" aria-label="Save changes">Save</button>
+                        <div class="score-display">ARIA: Save changes</div>
+                    </div>
+                    
+                    <div class="element-card" onclick="selectSource(this)">
+                        <input type="email" class="input-field" name="email" placeholder="Email address">
+                        <div class="score-display">Name: email, Type: email</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="demo-section">
+                <h3>Controls</h3>
+                <div class="controls">
+                    <button class="button" onclick="findSimilarVON()">Find Similar (VON)</button>
+                    <button class="button secondary" onclick="findMultipleVON()">Find Top 3 (VON)</button>
+                    <button class="button secondary" onclick="clearHighlights()">Clear Highlights</button>
+                    <button class="button secondary" onclick="showAdvancedOptions()">Advanced Options</button>
+                </div>
+                
+                <div id="advanced-options" style="display: none;">
+                    <div class="form-group">
+                        <label>Minimum Score:</label>
+                        <input type="number" id="minScore" value="0" min="0" max="20" class="input-field">
+                    </div>
+                    <div class="form-group">
+                        <label>Max Candidates:</label>
+                        <input type="number" id="maxCandidates" value="1000" min="100" max="5000" class="input-field">
+                    </div>
+                    <div class="form-group">
+                        <label>Exclude Selectors:</label>
+                        <input type="text" id="excludeSelectors" value=".hidden, .disabled" class="input-field" placeholder=".hidden, .disabled">
+                    </div>
+                </div>
+            </div>
+
+            <div id="results" class="demo-section">
+                <h3>Results</h3>
+                <div id="result-content">
+                    <p>Select a source element and click "Find Similar (VON)" to see detailed VON breakdown.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Visual Tab -->
+        <div id="visual" class="tab-content">
+            <h2>Visual Similarity Demo</h2>
+            
+            <div class="visual-demo">
+                <h3>Position and Size Comparison</h3>
+                <p>VON Similo considers visual similarity including position, size, and aspect ratio.</p>
+                
+                <div class="position-demo">
+                    <div class="demo-element source" style="top: 20px; left: 20px; width: 100px; height: 40px;">
+                        Source Element
+                    </div>
+                    <div class="demo-element candidate" style="top: 25px; left: 25px; width: 95px; height: 42px;">
+                        Similar Position
+                    </div>
+                    <div class="demo-element candidate" style="top: 100px; left: 150px; width: 80px; height: 35px;">
+                        Different Position
+                    </div>
+                    <div class="demo-element candidate" style="top: 20px; left: 200px; width: 100px; height: 40px;">
+                        Same Size
+                    </div>
+                </div>
+                
+                <div class="score-breakdown">
+                    <div class="score-card visual">
+                        <div class="score-label">Position Similarity</div>
+                        <div class="score-value" id="pos-score">0.85</div>
+                        <div>Euclidean distance normalized</div>
+                    </div>
+                    <div class="score-card visual">
+                        <div class="score-label">Size Similarity</div>
+                        <div class="score-value" id="size-score">0.92</div>
+                        <div>Area difference normalized</div>
+                    </div>
+                    <div class="score-card visual">
+                        <div class="score-label">Aspect Ratio</div>
+                        <div class="score-value" id="aspect-score">0.88</div>
+                        <div>Width/height ratio</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Object Tab -->
+        <div id="object" class="tab-content">
+            <h2>Object Similarity Demo</h2>
+            
+            <div class="demo-section">
+                <h3>DOM Attribute Comparison</h3>
+                <p>VON Similo compares object properties like tag name, ID, classes, text content, and attributes.</p>
+                
+                <div class="comparison-grid">
+                    <div class="comparison-section">
+                        <h4>Source Element</h4>
+                        <div class="code-block">
+&lt;button id="submit-btn" class="btn primary"&gt;
+    Submit Form
+&lt;/button&gt;
+                        </div>
+                        <ul>
+                            <li><strong>Tag:</strong> button</li>
+                            <li><strong>ID:</strong> submit-btn</li>
+                            <li><strong>Classes:</strong> btn, primary</li>
+                            <li><strong>Text:</strong> Submit Form</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="comparison-section">
+                        <h4>Candidate Elements</h4>
+                        <div class="code-block">
+&lt;button id="submit-btn" class="btn primary"&gt;✓&lt;/button&gt;
+&lt;button class="btn primary"&gt;Submit Form&lt;/button&gt;
+&lt;button class="btn"&gt;Submit&lt;/button&gt;
+&lt;input type="submit" class="btn"&gt;
+                        </div>
+                        <ul>
+                            <li><strong>Candidate 1:</strong> Perfect match (ID + classes + text)</li>
+                            <li><strong>Candidate 2:</strong> Good match (classes + text)</li>
+                            <li><strong>Candidate 3:</strong> Partial match (classes + partial text)</li>
+                            <li><strong>Candidate 4:</strong> Different tag, same classes</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="score-breakdown">
+                    <div class="score-card object">
+                        <div class="score-label">Tag Name</div>
+                        <div class="score-value">3.0</div>
+                        <div>Exact tag match</div>
+                    </div>
+                    <div class="score-card object">
+                        <div class="score-label">ID Match</div>
+                        <div class="score-value">5.0</div>
+                        <div>Exact ID match</div>
+                    </div>
+                    <div class="score-card object">
+                        <div class="score-label">Classes</div>
+                        <div class="score-value">4.0</div>
+                        <div>2 common classes × 2.0</div>
+                    </div>
+                    <div class="score-card object">
+                        <div class="score-label">Text Content</div>
+                        <div class="score-value">4.0</div>
+                        <div>Exact text match</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Neighborhood Tab -->
+        <div id="neighborhood" class="tab-content">
+            <h2>Neighborhood Similarity Demo</h2>
+            
+            <div class="neighborhood-demo">
+                <h3>Parent and Sibling Context</h3>
+                <p>VON Similo analyzes the DOM neighborhood including parent elements, siblings, and ancestor paths.</p>
+                
+                <div class="parent-container">
+                    <h4>Source Element's Parent</h4>
+                    <div class="sibling-group">
+                        <div class="sibling-element">Label</div>
+                        <div class="sibling-element source">Input Field</div>
+                        <div class="sibling-element">Button</div>
+                        <div class="sibling-element">Help Text</div>
+                    </div>
+                </div>
+                
+                <div class="parent-container">
+                    <h4>Candidate Element's Parent</h4>
+                    <div class="sibling-group">
+                        <div class="sibling-element">Label</div>
+                        <div class="sibling-element candidate">Input Field</div>
+                        <div class="sibling-element">Button</div>
+                        <div class="sibling-element">Help Text</div>
+                    </div>
+                </div>
+                
+                <div class="score-breakdown">
+                    <div class="score-card neighborhood">
+                        <div class="score-label">Parent Tag</div>
+                        <div class="score-value">2.0</div>
+                        <div>Same parent tag</div>
+                    </div>
+                    <div class="score-card neighborhood">
+                        <div class="score-label">Sibling Tags</div>
+                        <div class="score-value">3.0</div>
+                        <div>3 matching sibling tags</div>
+                    </div>
+                    <div class="score-card neighborhood">
+                        <div class="score-label">Sibling Classes</div>
+                        <div class="score-value">2.4</div>
+                        <div>3 matching sibling classes</div>
+                    </div>
+                    <div class="score-card neighborhood">
+                        <div class="score-label">Path Similarity</div>
+                        <div class="score-value">1.5</div>
+                        <div>Common ancestor path</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Examples Tab -->
+        <div id="examples" class="tab-content">
+            <h2>VON Similo Code Examples</h2>
+            
+            <div class="demo-section">
+                <h3>Basic Usage</h3>
+                <div class="code-block">
+// Find the most similar element using VON Similo
+const bestMatch = findMostSimilarElementVON('#submit-btn');
+if (bestMatch) {
+    highlightElement(bestMatch, 'red', 3000);
+    bestMatch.click();
+}
+                </div>
+            </div>
+
+            <div class="demo-section">
+                <h3>Detailed Analysis</h3>
+                <div class="code-block">
+// Get detailed VON similarity breakdown
+const results = findSimilarElementsVON('#submit-btn', {
+    maxResults: 3,
+    detailedResults: true
+});
+
+results.forEach(({element, total, visual, object, neighborhood}) => {
+    console.log(`Element: ${element.tagName}`);
+    console.log(`Total Score: ${total}`);
+    console.log(`Visual: ${visual}, Object: ${object}, Neighborhood: ${neighborhood}`);
+});
+                </div>
+            </div>
+
+            <div class="demo-section">
+                <h3>Using VONSimilo Class</h3>
+                <div class="code-block">
+// Create VON Similo instance with custom weights
+const vonSimilo = new VONSimilo({
+    weights: {
+        VISUAL: { POSITION: 3.0, SIZE: 2.0 },
+        OBJECT: { TAG_NAME: 4.0, ID: 6.0 },
+        NEIGHBORHOOD: { PARENT_TAG: 3.0 }
+    },
+    minScore: 2,
+    maxCandidates: 500
+});
+
+// Find similar elements
+const result = vonSimilo.find('#submit-btn');
+if (result) {
+    highlightElement(result, 'green', 3000);
+}
+                </div>
+            </div>
+
+            <div class="demo-section">
+                <h3>Component Analysis</h3>
+                <div class="code-block">
+// Analyze individual VON components
+const similarity = computeVONSimilarity(sourceElement, candidateElement);
+
+console.log('Visual Score:', similarity.visual);
+console.log('Object Score:', similarity.object);
+console.log('Neighborhood Score:', similarity.neighborhood);
+console.log('Total Score:', similarity.total);
+
+// Access detailed breakdown
+console.log('Visual Details:', similarity.details.visual);
+console.log('Object Details:', similarity.details.object);
+console.log('Neighborhood Details:', similarity.details.neighborhood);
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="von-similo.js"></script>
+    <script>
+        let selectedSource = null;
+
+        function showTab(tabName) {
+            // Hide all tab contents
+            const tabContents = document.querySelectorAll('.tab-content');
+            tabContents.forEach(content => content.classList.remove('active'));
+            
+            // Remove active class from all tabs
+            const tabs = document.querySelectorAll('.tab');
+            tabs.forEach(tab => tab.classList.remove('active'));
+            
+            // Show selected tab content
+            document.getElementById(tabName).classList.add('active');
+            
+            // Add active class to clicked tab
+            event.target.classList.add('active');
+        }
+
+        function selectSource(element) {
+            // Clear previous selection
+            document.querySelectorAll('.element-card').forEach(card => {
+                card.classList.remove('highlighted');
+            });
+            
+            // Highlight selected element
+            element.classList.add('highlighted');
+            selectedSource = element;
+            
+            // Show selection info
+            const resultContent = document.getElementById('result-content');
+            resultContent.innerHTML = `
+                <div class="result info">
+                    <strong>Selected Source:</strong> ${element.outerHTML.replace(/<\/?[^>]+(>|$)/g, '')}
+                </div>
+            `;
+        }
+
+        function findSimilarVON() {
+            if (!selectedSource) {
+                alert('Please select a source element first!');
+                return;
+            }
+
+            clearHighlights();
+            
+            const options = {
+                minScore: parseInt(document.getElementById('minScore').value) || 0,
+                maxCandidates: parseInt(document.getElementById('maxCandidates').value) || 1000,
+                excludeSelectors: document.getElementById('excludeSelectors').value.split(',').map(s => s.trim()).filter(s => s)
+            };
+
+            const bestMatch = findMostSimilarElementVON(selectedSource, options);
+            
+            const resultContent = document.getElementById('result-content');
+            if (bestMatch) {
+                highlightElement(bestMatch, 'red', 5000);
+                
+                // Get detailed VON analysis
+                const similarity = computeVONSimilarity(selectedSource, bestMatch);
+                
+                resultContent.innerHTML = `
+                    <div class="result">
+                        <strong>Best VON Match Found:</strong><br>
+                        Element: ${bestMatch.tagName.toLowerCase()}<br>
+                        Classes: ${bestMatch.className}<br>
+                        Text: "${bestMatch.textContent.trim()}"<br>
+                        <br>
+                        <strong>VON Score Breakdown:</strong><br>
+                        <div class="score-breakdown">
+                            <div class="score-card visual">
+                                <div class="score-label">Visual</div>
+                                <div class="score-value">${similarity.visual.toFixed(2)}</div>
+                            </div>
+                            <div class="score-card object">
+                                <div class="score-label">Object</div>
+                                <div class="score-value">${similarity.object.toFixed(2)}</div>
+                            </div>
+                            <div class="score-card neighborhood">
+                                <div class="score-label">Neighborhood</div>
+                                <div class="score-value">${similarity.neighborhood.toFixed(2)}</div>
+                            </div>
+                            <div class="score-card" style="border-left-color: #9b59b6;">
+                                <div class="score-label">Total</div>
+                                <div class="score-value">${similarity.total.toFixed(2)}</div>
+                            </div>
+                        </div>
+                        <em>Element highlighted in red for 5 seconds</em>
+                    </div>
+                `;
+            } else {
+                resultContent.innerHTML = `
+                    <div class="result error">
+                        <strong>No similar element found</strong><br>
+                        Try adjusting the minimum score or including hidden elements.
+                    </div>
+                `;
+            }
+        }
+
+        function findMultipleVON() {
+            if (!selectedSource) {
+                alert('Please select a source element first!');
+                return;
+            }
+
+            clearHighlights();
+            
+            const options = {
+                maxResults: 3,
+                minScore: parseInt(document.getElementById('minScore').value) || 0,
+                maxCandidates: parseInt(document.getElementById('maxCandidates').value) || 1000,
+                excludeSelectors: document.getElementById('excludeSelectors').value.split(',').map(s => s.trim()).filter(s => s)
+            };
+
+            const similarElements = findSimilarElementsVON(selectedSource, options);
+            
+            const resultContent = document.getElementById('result-content');
+            if (similarElements.length > 0) {
+                let resultHTML = '<div class="result"><strong>Top 3 VON Similar Elements:</strong><br>';
+                
+                similarElements.forEach(({element, total, visual, object, neighborhood}, index) => {
+                    const colors = ['red', 'blue', 'green'];
+                    highlightElement(element, colors[index], 5000);
+                    
+                    resultHTML += `
+                        <br><strong>${index + 1}. Total Score: ${total.toFixed(2)}</strong><br>
+                        Element: ${element.tagName.toLowerCase()}<br>
+                        Classes: ${element.className}<br>
+                        Text: "${element.textContent.trim()}"<br>
+                        VON: Visual(${visual.toFixed(2)}) + Object(${object.toFixed(2)}) + Neighborhood(${neighborhood.toFixed(2)})<br>
+                        <em>Highlighted in ${colors[index]}</em><br>
+                    `;
+                });
+                
+                resultHTML += '</div>';
+                resultContent.innerHTML = resultHTML;
+            } else {
+                resultContent.innerHTML = `
+                    <div class="result error">
+                        <strong>No similar elements found</strong><br>
+                        Try adjusting the minimum score or including hidden elements.
+                    </div>
+                `;
+            }
+        }
+
+        function clearHighlights() {
+            document.querySelectorAll('*').forEach(element => {
+                element.style.border = '';
+                element.style.outline = '';
+                element.style.outlineOffset = '';
+            });
+        }
+
+        function showAdvancedOptions() {
+            const advancedOptions = document.getElementById('advanced-options');
+            advancedOptions.style.display = advancedOptions.style.display === 'none' ? 'block' : 'none';
+        }
+
+        // Initialize demo
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('VON Similo Algorithm Demo loaded successfully!');
+            console.log('Available functions:', Object.keys(window.VONSimilo));
+        });
+    </script>
+</body>
+</html> 

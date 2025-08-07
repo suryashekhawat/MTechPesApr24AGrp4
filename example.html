@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Similo Algorithm Demo</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            background: white;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #34495e;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+
+        .demo-section {
+            margin: 30px 0;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background: #fafafa;
+        }
+
+        .button {
+            background: #3498db;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 5px;
+            font-size: 14px;
+        }
+
+        .button:hover {
+            background: #2980b9;
+        }
+
+        .button.secondary {
+            background: #95a5a6;
+        }
+
+        .button.secondary:hover {
+            background: #7f8c8d;
+        }
+
+        .button.success {
+            background: #27ae60;
+        }
+
+        .button.success:hover {
+            background: #229954;
+        }
+
+        .input-field {
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 5px;
+            font-size: 14px;
+        }
+
+        .result {
+            margin: 15px 0;
+            padding: 15px;
+            border-radius: 5px;
+            background: #e8f5e8;
+            border-left: 4px solid #27ae60;
+        }
+
+        .result.error {
+            background: #ffeaea;
+            border-left-color: #e74c3c;
+        }
+
+        .result.info {
+            background: #e3f2fd;
+            border-left-color: #2196f3;
+        }
+
+        .element-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        .element-card {
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            text-align: center;
+            background: white;
+            transition: all 0.3s ease;
+        }
+
+        .element-card:hover {
+            border-color: #3498db;
+            transform: translateY(-2px);
+        }
+
+        .element-card.highlighted {
+            border-color: #e74c3c;
+            background: #fff5f5;
+        }
+
+        .score-display {
+            font-size: 12px;
+            color: #666;
+            margin-top: 10px;
+        }
+
+        .controls {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            align-items: center;
+            margin: 15px 0;
+        }
+
+        .form-group {
+            margin: 15px 0;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .code-block {
+            background: #2c3e50;
+            color: #ecf0f1;
+            padding: 15px;
+            border-radius: 5px;
+            font-family: 'Courier New', monospace;
+            overflow-x: auto;
+            margin: 15px 0;
+        }
+
+        .tabs {
+            display: flex;
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 20px;
+        }
+
+        .tab {
+            padding: 10px 20px;
+            cursor: pointer;
+            border: none;
+            background: none;
+            border-bottom: 2px solid transparent;
+        }
+
+        .tab.active {
+            border-bottom-color: #3498db;
+            color: #3498db;
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🧠 Similo Algorithm Demo</h1>
+        <p style="text-align: center; color: #666; margin-bottom: 30px;">
+            Similarity-based web element localization algorithm
+        </p>
+
+        <div class="tabs">
+            <button class="tab active" onclick="showTab('demo')">Demo</button>
+            <button class="tab" onclick="showTab('examples')">Examples</button>
+            <button class="tab" onclick="showTab('api')">API</button>
+        </div>
+
+        <!-- Demo Tab -->
+        <div id="demo" class="tab-content active">
+            <h2>Interactive Demo</h2>
+            
+            <div class="demo-section">
+                <h3>Test Elements</h3>
+                <p>Click on any element below to use it as a source, then find similar elements:</p>
+                
+                <div class="element-grid">
+                    <div class="element-card" id="submit-btn" onclick="selectSource(this)">
+                        <button class="button success">Submit Form</button>
+                        <div class="score-display">ID: submit-btn</div>
+                    </div>
+                    
+                    <div class="element-card" onclick="selectSource(this)">
+                        <button class="button">Click Me</button>
+                        <div class="score-display">Class: button</div>
+                    </div>
+                    
+                    <div class="element-card" onclick="selectSource(this)">
+                        <input type="text" class="input-field" placeholder="Enter your name" value="John Doe">
+                        <div class="score-display">Placeholder: Enter your name</div>
+                    </div>
+                    
+                    <div class="element-card" onclick="selectSource(this)">
+                        <a href="#" class="button secondary">Learn More</a>
+                        <div class="score-display">Text: Learn More</div>
+                    </div>
+                    
+                    <div class="element-card" onclick="selectSource(this)">
+                        <button class="button" aria-label="Save changes">Save</button>
+                        <div class="score-display">ARIA: Save changes</div>
+                    </div>
+                    
+                    <div class="element-card" onclick="selectSource(this)">
+                        <input type="email" class="input-field" name="email" placeholder="Email address">
+                        <div class="score-display">Name: email</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="demo-section">
+                <h3>Controls</h3>
+                <div class="controls">
+                    <button class="button" onclick="findSimilar()">Find Similar Elements</button>
+                    <button class="button secondary" onclick="findMultiple()">Find Top 3</button>
+                    <button class="button secondary" onclick="clearHighlights()">Clear Highlights</button>
+                    <button class="button secondary" onclick="showAdvancedOptions()">Advanced Options</button>
+                </div>
+                
+                <div id="advanced-options" style="display: none;">
+                    <div class="form-group">
+                        <label>Minimum Score:</label>
+                        <input type="number" id="minScore" value="0" min="0" max="20" class="input-field">
+                    </div>
+                    <div class="form-group">
+                        <label>Max Candidates:</label>
+                        <input type="number" id="maxCandidates" value="1000" min="100" max="5000" class="input-field">
+                    </div>
+                    <div class="form-group">
+                        <label>Exclude Selectors:</label>
+                        <input type="text" id="excludeSelectors" value=".hidden, .disabled" class="input-field" placeholder=".hidden, .disabled">
+                    </div>
+                </div>
+            </div>
+
+            <div id="results" class="demo-section">
+                <h3>Results</h3>
+                <div id="result-content">
+                    <p>Select a source element and click "Find Similar Elements" to see results.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Examples Tab -->
+        <div id="examples" class="tab-content">
+            <h2>Code Examples</h2>
+            
+            <div class="demo-section">
+                <h3>Basic Usage</h3>
+                <div class="code-block">
+// Find the most similar element
+const bestMatch = findMostSimilarElement('#submit-btn');
+if (bestMatch) {
+    highlightElement(bestMatch, 'red', 3000);
+    bestMatch.click();
+}
+                </div>
+            </div>
+
+            <div class="demo-section">
+                <h3>Advanced Usage with Options</h3>
+                <div class="code-block">
+// Find similar elements with custom options
+const similarElements = findSimilarElements('#submit-btn', {
+    maxResults: 5,
+    minScore: 3,
+    excludeSelectors: ['.hidden', '.disabled'],
+    includeHidden: false
+});
+
+similarElements.forEach(({element, score}) => {
+    console.log(`Element: ${element.tagName}, Score: ${score}`);
+    highlightElement(element, 'blue', 2000);
+});
+                </div>
+            </div>
+
+            <div class="demo-section">
+                <h3>Using the Similo Class</h3>
+                <div class="code-block">
+// Create a Similo instance with custom configuration
+const similo = new Similo({
+    minScore: 2,
+    maxCandidates: 500,
+    weights: {
+        TAG_NAME: 4,
+        ID: 6,
+        CLASS: 3
+    }
+});
+
+// Find similar elements
+const result = similo.find('#submit-btn');
+if (result) {
+    highlightElement(result, 'green', 3000);
+}
+                </div>
+            </div>
+        </div>
+
+        <!-- API Tab -->
+        <div id="api" class="tab-content">
+            <h2>API Reference</h2>
+            
+            <div class="demo-section">
+                <h3>Functions</h3>
+                
+                <h4>findMostSimilarElement(sourceSelector, options)</h4>
+                <p>Finds the most similar element to the source element.</p>
+                <ul>
+                    <li><strong>sourceSelector:</strong> CSS selector string or Element object</li>
+                    <li><strong>options:</strong> Configuration object (optional)</li>
+                    <li><strong>Returns:</strong> Element or null</li>
+                </ul>
+
+                <h4>findSimilarElements(sourceSelector, options)</h4>
+                <p>Finds multiple similar elements, sorted by similarity score.</p>
+                <ul>
+                    <li><strong>sourceSelector:</strong> CSS selector string or Element object</li>
+                    <li><strong>options:</strong> Configuration object (optional)</li>
+                    <li><strong>Returns:</strong> Array of {element, score} objects</li>
+                </ul>
+
+                <h4>highlightElement(element, color, duration)</h4>
+                <p>Highlights an element for debugging purposes.</p>
+                <ul>
+                    <li><strong>element:</strong> DOM element to highlight</li>
+                    <li><strong>color:</strong> Highlight color (default: 'red')</li>
+                    <li><strong>duration:</strong> Duration in milliseconds (default: 3000)</li>
+                </ul>
+            </div>
+
+            <div class="demo-section">
+                <h3>Options</h3>
+                <ul>
+                    <li><strong>minScore:</strong> Minimum similarity score (default: 0)</li>
+                    <li><strong>maxCandidates:</strong> Maximum number of candidates to check (default: 1000)</li>
+                    <li><strong>excludeSelectors:</strong> Array of CSS selectors to exclude (default: [])</li>
+                    <li><strong>includeHidden:</strong> Include hidden elements (default: false)</li>
+                    <li><strong>maxResults:</strong> Maximum number of results to return (for findSimilarElements)</li>
+                </ul>
+            </div>
+
+            <div class="demo-section">
+                <h3>Similarity Weights</h3>
+                <ul>
+                    <li><strong>TAG_NAME:</strong> 3 points</li>
+                    <li><strong>ID:</strong> 5 points</li>
+                    <li><strong>CLASS:</strong> 2 points per common class</li>
+                    <li><strong>TEXT_CONTENT:</strong> 4 points (exact match)</li>
+                    <li><strong>TEXT_PARTIAL:</strong> 2 points (partial match)</li>
+                    <li><strong>NAME_ATTR:</strong> 3 points</li>
+                    <li><strong>PLACEHOLDER:</strong> 2 points</li>
+                    <li><strong>ARIA_LABEL:</strong> 3 points</li>
+                    <li><strong>ARIA_DESCRIBEDBY:</strong> 3 points</li>
+                    <li><strong>POSITION:</strong> 1 point (within 100px)</li>
+                    <li><strong>VISIBLE:</strong> 1 point</li>
+                    <li><strong>INTERACTIVE:</strong> 2 points</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="similo.js"></script>
+    <script>
+        let selectedSource = null;
+
+        function showTab(tabName) {
+            // Hide all tab contents
+            const tabContents = document.querySelectorAll('.tab-content');
+            tabContents.forEach(content => content.classList.remove('active'));
+            
+            // Remove active class from all tabs
+            const tabs = document.querySelectorAll('.tab');
+            tabs.forEach(tab => tab.classList.remove('active'));
+            
+            // Show selected tab content
+            document.getElementById(tabName).classList.add('active');
+            
+            // Add active class to clicked tab
+            event.target.classList.add('active');
+        }
+
+        function selectSource(element) {
+            // Clear previous selection
+            document.querySelectorAll('.element-card').forEach(card => {
+                card.classList.remove('highlighted');
+            });
+            
+            // Highlight selected element
+            element.classList.add('highlighted');
+            selectedSource = element;
+            
+            // Show selection info
+            const resultContent = document.getElementById('result-content');
+            resultContent.innerHTML = `
+                <div class="result info">
+                    <strong>Selected Source:</strong> ${element.outerHTML.replace(/<\/?[^>]+(>|$)/g, '')}
+                </div>
+            `;
+        }
+
+        function findSimilar() {
+            if (!selectedSource) {
+                alert('Please select a source element first!');
+                return;
+            }
+
+            clearHighlights();
+            
+            const options = {
+                minScore: parseInt(document.getElementById('minScore').value) || 0,
+                maxCandidates: parseInt(document.getElementById('maxCandidates').value) || 1000,
+                excludeSelectors: document.getElementById('excludeSelectors').value.split(',').map(s => s.trim()).filter(s => s)
+            };
+
+            const bestMatch = findMostSimilarElement(selectedSource, options);
+            
+            const resultContent = document.getElementById('result-content');
+            if (bestMatch) {
+                highlightElement(bestMatch, 'red', 5000);
+                resultContent.innerHTML = `
+                    <div class="result">
+                        <strong>Best Match Found:</strong><br>
+                        Element: ${bestMatch.tagName.toLowerCase()}<br>
+                        Classes: ${bestMatch.className}<br>
+                        Text: "${bestMatch.textContent.trim()}"<br>
+                        <em>Element highlighted in red for 5 seconds</em>
+                    </div>
+                `;
+            } else {
+                resultContent.innerHTML = `
+                    <div class="result error">
+                        <strong>No similar element found</strong><br>
+                        Try adjusting the minimum score or including hidden elements.
+                    </div>
+                `;
+            }
+        }
+
+        function findMultiple() {
+            if (!selectedSource) {
+                alert('Please select a source element first!');
+                return;
+            }
+
+            clearHighlights();
+            
+            const options = {
+                maxResults: 3,
+                minScore: parseInt(document.getElementById('minScore').value) || 0,
+                maxCandidates: parseInt(document.getElementById('maxCandidates').value) || 1000,
+                excludeSelectors: document.getElementById('excludeSelectors').value.split(',').map(s => s.trim()).filter(s => s)
+            };
+
+            const similarElements = findSimilarElements(selectedSource, options);
+            
+            const resultContent = document.getElementById('result-content');
+            if (similarElements.length > 0) {
+                let resultHTML = '<div class="result"><strong>Top 3 Similar Elements:</strong><br>';
+                
+                similarElements.forEach(({element, score}, index) => {
+                    const colors = ['red', 'blue', 'green'];
+                    highlightElement(element, colors[index], 5000);
+                    
+                    resultHTML += `
+                        <br><strong>${index + 1}. Score: ${score}</strong><br>
+                        Element: ${element.tagName.toLowerCase()}<br>
+                        Classes: ${element.className}<br>
+                        Text: "${element.textContent.trim()}"<br>
+                        <em>Highlighted in ${colors[index]}</em><br>
+                    `;
+                });
+                
+                resultHTML += '</div>';
+                resultContent.innerHTML = resultHTML;
+            } else {
+                resultContent.innerHTML = `
+                    <div class="result error">
+                        <strong>No similar elements found</strong><br>
+                        Try adjusting the minimum score or including hidden elements.
+                    </div>
+                `;
+            }
+        }
+
+        function clearHighlights() {
+            document.querySelectorAll('*').forEach(element => {
+                element.style.border = '';
+                element.style.outline = '';
+                element.style.outlineOffset = '';
+            });
+        }
+
+        function showAdvancedOptions() {
+            const advancedOptions = document.getElementById('advanced-options');
+            advancedOptions.style.display = advancedOptions.style.display === 'none' ? 'block' : 'none';
+        }
+
+        // Initialize demo
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Similo Algorithm Demo loaded successfully!');
+            console.log('Available functions:', Object.keys(window.Similo));
+        });
+    </script>
+</body>
+</html> 
