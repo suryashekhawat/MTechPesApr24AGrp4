@@ -50,6 +50,32 @@ print(f"[*] Found {len(data)} snapshots")
 
 # Step 2: Download HTML for each snapshot
 count = 0
+# helper: determine whether an existing saved file looks like a valid snapshot
+def is_valid_snapshot(path: str) -> bool:
+    if not os.path.exists(path):
+        return False
+    try:
+        size = os.path.getsize(path)
+        # tiny files are likely partial or errors
+        if size < 200:
+            return False
+        # check for common Wayback/archival error phrases in the start of the file
+        with open(path, "r", encoding="utf-8", errors="ignore") as fh:
+            snippet = fh.read(2000).lower()
+            bad_phrases = [
+                "wayback machine doesn't have",
+                "page not available",
+                "captured url is not available",
+                "this capture is not available",
+                "not archived",
+                "error"
+            ]
+            for p in bad_phrases:
+                if p in snippet:
+                    return False
+        return True
+    except Exception:
+        return False
 for idx, (timestamp, url) in enumerate(data):
     if MAX_SNAPSHOTS is not None and count >= MAX_SNAPSHOTS:
         break
@@ -57,7 +83,9 @@ for idx, (timestamp, url) in enumerate(data):
     archive_url = f"https://web.archive.org/web/{timestamp}/{url}"
     save_path = os.path.join(SAVE_DIR, f"{timestamp}.html")
 
-    if os.path.exists(save_path):
+    # skip if we already have a valid saved snapshot
+    if is_valid_snapshot(save_path):
+        print(f"[ ] Skipping existing valid {save_path}")
         continue
 
     try:
@@ -71,8 +99,15 @@ for idx, (timestamp, url) in enumerate(data):
             continue
 
         if r.status_code == 200:
-            with open(save_path, "w", encoding="utf-8") as f:
+            # write to a temporary file first then atomically move into place
+            tmp_path = save_path + ".part"
+            with open(tmp_path, "w", encoding="utf-8") as f:
                 f.write(r.text)
+            try:
+                os.replace(tmp_path, save_path)
+            except Exception:
+                # fallback to rename if replace fails
+                os.rename(tmp_path, save_path)
             count += 1
             print(f"[{count}/{len(data)}] Saved {save_path}")
         else:
