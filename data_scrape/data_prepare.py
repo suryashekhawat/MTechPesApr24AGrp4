@@ -8,6 +8,9 @@ Usage:
 Dependencies: beautifulsoup4
     pip install beautifulsoup4
 """
+
+__version__ = "2.0.0"
+
 import argparse
 import csv
 import os
@@ -72,8 +75,11 @@ def process_file(path: str):
     with open(path, "r", encoding="utf-8", errors="ignore") as fh:
         txt = fh.read()
     soup = BeautifulSoup(txt, "html.parser")
-    container = soup.find(id="a-page")
+
+    # Find the main container
+    container = soup.find(id="a-page") or soup.find(id="container") or soup.find(class_="content")
     if not container:
+        print("No container found.")
         return []
     page_url = find_page_url(soup)
     rows = []
@@ -134,10 +140,19 @@ def main():
         "source_file",
     ]
 
-    with open(out_csv, "w", newline="", encoding="utf-8") as outfh:
+    file_exists = os.path.exists(out_csv)
+    write_header = True
+    # Only write header if file does not exist or is empty
+    if file_exists:
+        try:
+            write_header = os.path.getsize(out_csv) == 0
+        except Exception:
+            write_header = True
+    total = 0
+    with open(out_csv, "a", newline="", encoding="utf-8") as outfh:
         writer = csv.DictWriter(outfh, fieldnames=fieldnames)
-        writer.writeheader()
-        total = 0
+        if write_header:
+            writer.writeheader()
         for fp in files:
             try:
                 rows = process_file(fp)
