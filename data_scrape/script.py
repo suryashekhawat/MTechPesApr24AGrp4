@@ -7,10 +7,10 @@ from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
 # Configuration
-DOMAIN = "amazon.in"
+DOMAIN = "flipkart.com"
 START_YEAR = 2024
 END_YEAR = 2025
-SAVE_DIR = "./wayback_html"
+SAVE_DIR = os.path.join(os.path.dirname(__file__), 'wayback_html')
 MAX_SNAPSHOTS = None  # set to an int to limit downloads during testing, or None for all
 MIN_DELAY = 1.5
 MAX_DELAY = 3.0
