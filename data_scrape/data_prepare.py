@@ -105,8 +105,8 @@ def process_file(path: str):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--input", "-i", default="./wayback_html", help="input folder with saved snapshots")
-    ap.add_argument("--output", "-o", default="./elements.csv", help="output CSV file")
+    ap.add_argument("--input", "-i", default=os.path.join(os.path.dirname(__file__), 'wayback_html'), help="input folder with saved snapshots")
+    ap.add_argument("--output", "-o", default=os.path.join(os.path.dirname(__file__), 'elements.csv'), help="output CSV file")
     args = ap.parse_args()
 
     input_dir = args.input
