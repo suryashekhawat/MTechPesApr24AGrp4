@@ -1,0 +1,1067 @@
+uid,parent_uid,parent_xpath,tag,id,classes,xpath,depth,textContent,childrenCount,x,y,width,height,display,position,color,backgroundColor,zIndex,visibility
+daf8dcc0-82de-4857-a224-dd3a4c8f09ba,,,img,,,"id(""a-page"")/img[1]",0,,0,0.0,0.0,0.0,0.0,none,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+d39999e8-0226-41ee-bbcf-a97406596408,,,img,,,"id(""a-page"")/img[2]",0,,0,0.0,0.0,0.0,0.0,none,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+832e85e2-f14b-4e0d-a674-cc463d235208,,,style,,,"id(""a-page"")/style[1]",0,.nav-bluebeacon .nav-cobrand{background-image: url(https://web.archive.org/web/20230301092326im_/htt,0,0.0,0.0,0.0,0.0,none,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+2abd99f0-6594-4d6b-91b5-36e94eaf6796,,,a,nav-top,,"id(""nav-top"")",0,,0,0.0,67.0,0.0,0.0,inline,static,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+02c7ede6-5362-42d9-afcc-d8b8e432c80b,,,a,skiplink,skip-link,"id(""skiplink"")",0,Skip to main content,0,7.0,10.0,144.8515625,36.0,block,absolute,"rgb(0, 113, 133)","rgb(255, 255, 255)",-1,visible
+971d54ca-9711-49dd-bb3d-806c6fea81ea,,,header,navbar-main,"nav-opt-sprite,nav-flex,nav-locale-in,nav-lang-en,nav-ssl,nav-unrec,nav-progressive-attribute","id(""navbar-main"")",0,"window.navmet.tmp=+new Date();
+  
+    
+      
+      
+      .in
+    
+  
+window.navmet.push({key:'Logo",1,0.0,67.0,1265.0,99.0,flex,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,971d54ca-9711-49dd-bb3d-806c6fea81ea,"id(""navbar-main"")",div,navbar,"nav-sprite-v1,celwidget,nav-bluebeacon,nav-a11y-t1,bold-focus-hover,layout2,nav-flex,layout3,layout3-alt,nav-packard-glow,hamburger,nav-progressive-attribute","id(""navbar"")",1,"window.navmet.tmp=+new Date();
+  
+    
+      
+      
+      .in
+    
+  
+window.navmet.push({key:'Logo",4,0.0,67.0,1265.0,99.0,flex,static,"rgb(15, 17, 17)","rgb(35, 47, 62)",198,visible
+,,"id(""navbar"")",div,nav-belt,,"id(""nav-belt"")",2,"window.navmet.tmp=+new Date();
+  
+    
+      
+      
+      .in
+    
+  
+window.navmet.push({key:'Logo",3,0.0,67.0,1265.0,60.0,flex,static,"rgb(15, 17, 17)","rgb(19, 25, 33)",5,visible
+,,"id(""nav-belt"")",div,,nav-left,"id(""nav-belt"")/div[1]",3,"window.navmet.tmp=+new Date();
+  
+    
+      
+      
+      .in
+    
+  
+window.navmet.push({key:'Logo",5,0.0,67.0,312.328125,60.0,flex,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-belt"")/div[1]",script,,,"id(""nav-belt"")/div[1]/script[1]",4,window.navmet.tmp=+new Date();,0,0.0,0.0,0.0,0.0,none,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-belt"")/div[1]",div,nav-logo,,"id(""nav-logo"")",4,.in,1,11.0,67.0,128.265625,60.0,flex,relative,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-logo"")",a,nav-logo-sprites,"nav-logo-link,nav-progressive-attribute","id(""nav-logo-sprites"")",5,.in,3,12.0,72.0,128.265625,50.0,flex,static,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-logo-sprites"")",span,,"nav-sprite,nav-logo-base","id(""nav-logo-sprites"")/span[1]",6,,0,18.0,85.0,97.0,30.0,block,static,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-logo-sprites"")",span,logo-ext,"nav-sprite,nav-logo-ext,nav-progressive-content","id(""logo-ext"")",6,,0,0.0,0.0,0.0,0.0,none,static,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-logo-sprites"")",span,,nav-logo-locale,"id(""nav-logo-sprites"")/span[3]",6,.in,0,116.0,89.0,14.265625,14.0,block,static,"rgb(255, 255, 255)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-belt"")/div[1]",script,,,"id(""nav-belt"")/div[1]/script[2]",4,"window.navmet.push({key:'Logo',end:+new Date(),begin:window.navmet.tmp});",0,0.0,0.0,0.0,0.0,none,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-belt"")/div[1]",div,nav-global-location-slot,,"id(""nav-global-location-slot"")",4,"Hello
+                
+                
+                   Select your address",4,141.265625,67.0,171.0625,60.0,flex,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-global-location-slot"")",span,nav-global-location-data-modal-action,"a-declarative,nav-progressive-attribute","id(""nav-global-location-data-modal-action"")",5,"Hello
+                
+                
+                   Select your address",1,141.265625,67.0,171.0625,60.0,flex,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-global-location-data-modal-action"")",a,nav-global-location-popover-link,"nav-a,nav-a-2,a-popover-trigger,a-declarative,nav-progressive-attribute","id(""nav-global-location-popover-link"")",6,"Hello
+                
+                
+                   Select your address",2,141.265625,72.0,169.0625,50.0,flex,static,"rgb(214, 214, 214)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-global-location-popover-link"")",div,nav-packard-glow-loc-icon,"nav-sprite,nav-progressive-attribute","id(""nav-packard-glow-loc-icon"")",7,,0,150.265625,92.0,15.0,18.0,flex,static,"rgb(214, 214, 214)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-global-location-popover-link"")",div,glow-ingress-block,,"id(""glow-ingress-block"")",7,"Hello
+                
+                
+                   Select your address",2,168.265625,82.0,133.0625,30.0,flex,static,"rgb(214, 214, 214)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""glow-ingress-block"")",span,glow-ingress-line1,"nav-line-1,nav-progressive-content","id(""glow-ingress-line1"")",8,Hello,0,168.265625,82.0,133.0625,14.0,block,static,"rgb(204, 204, 204)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""glow-ingress-block"")",span,glow-ingress-line2,"nav-line-2,nav-progressive-content","id(""glow-ingress-line2"")",8,Select your address,0,168.265625,96.0,133.0625,16.0,block,static,"rgb(255, 255, 255)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-global-location-slot"")",input,unifiedLocation1ClickAddress,nav-progressive-attribute,"id(""unifiedLocation1ClickAddress"")",5,,0,0.0,0.0,0.0,0.0,none,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-global-location-slot"")",input,ubbShipTo,nav-progressive-attribute,"id(""ubbShipTo"")",5,,0,0.0,0.0,0.0,0.0,none,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-global-location-slot"")",input,glowValidationToken,nav-progressive-attribute,"id(""glowValidationToken"")",5,,0,0.0,0.0,0.0,0.0,none,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-belt"")/div[1]",div,nav-global-location-toaster-script-container,nav-progressive-content,"id(""nav-global-location-toaster-script-container"")",4,,0,312.328125,67.0,0.0,60.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-belt"")",div,,nav-fill,"id(""nav-belt"")/div[2]",3,"window.navmet.tmp=+new Date();
+
+  
+  
+
+    
+      
+        
+  
+    
+      All
+      
+    
+    Select",3,312.328125,67.0,560.7265625,60.0,flex,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-belt"")/div[2]",script,,,"id(""nav-belt"")/div[2]/script[1]",4,window.navmet.tmp=+new Date();,0,0.0,0.0,0.0,0.0,none,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-belt"")/div[2]",div,nav-search,,"id(""nav-search"")",4,"All
+      
+    
+    Select the department you want to search in
+    
+        All Categories
+        ",2,318.328125,67.0,548.7265625,60.0,flex,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-search"")",div,nav-bar-left,,"id(""nav-bar-left"")",5,,0,321.328125,77.0,0.0,40.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-search"")",form,nav-search-bar-form,"nav-searchbar,nav-progressive-attribute","id(""nav-search-bar-form"")",5,"All
+      
+    
+    Select the department you want to search in
+    
+        All Categories
+        ",3,321.328125,77.0,541.7265625,40.0,flex,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-search-bar-form"")",div,,nav-left,"id(""nav-search-bar-form"")/div[1]",6,"All
+      
+    
+    Select the department you want to search in
+    
+        All Categories
+        ",1,321.328125,77.0,52.0,40.0,flex,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-search-bar-form"")/div[1]",div,nav-search-dropdown-card,,"id(""nav-search-dropdown-card"")",7,"All
+      
+    
+    Select the department you want to search in
+    
+        All Categories
+        ",1,321.328125,77.0,52.0,40.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-search-dropdown-card"")",div,,"nav-search-scope,nav-sprite","id(""nav-search-dropdown-card"")/div[1]",8,"All
+      
+    
+    Select the department you want to search in
+    
+        All Categories
+        ",3,321.328125,77.0,52.0,40.0,flex,relative,"rgb(15, 17, 17)","rgb(243, 243, 243)",auto,visible
+,,"id(""nav-search-dropdown-card"")/div[1]",div,,nav-search-facade,"id(""nav-search-dropdown-card"")/div[1]/div[1]",9,All,2,327.328125,81.0,45.0,38.0,block,relative,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-search-dropdown-card"")/div[1]/div[1]",span,nav-search-label-id,"nav-search-label,nav-progressive-content","id(""nav-search-label-id"")",10,All,0,332.328125,81.0,19.0,33.0,block,static,"rgb(85, 85, 85)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-search-dropdown-card"")/div[1]/div[1]",i,,nav-icon,"id(""nav-search-dropdown-card"")/div[1]/div[1]/i[1]",10,,0,356.328125,95.0,8.0,4.0,block,absolute,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-search-dropdown-card"")/div[1]",label,searchDropdownDescription,nav-progressive-attribute,"id(""searchDropdownDescription"")",9,Select the department you want to search in,0,0.0,0.0,0.0,0.0,none,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-search-dropdown-card"")/div[1]",select,searchDropdownBox,"nav-search-dropdown,searchSelect,nav-progressive-attrubute,nav-progressive-search-dropdown","id(""searchDropdownBox"")",9,"All Categories
+        Alexa Skills
+        Amazon Devices
+        Amazon Fashion
+        Amazon Fre",43,322.328125,77.0,193.0,35.0,block,absolute,"rgb(15, 17, 17)","rgb(255, 255, 255)",auto,visible
+,,"id(""searchDropdownBox"")",option,,,"id(""searchDropdownBox"")/option[1]",10,All Categories,0,0.0,0.0,0.0,0.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""searchDropdownBox"")",option,,,"id(""searchDropdownBox"")/option[2]",10,Alexa Skills,0,0.0,0.0,0.0,0.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""searchDropdownBox"")",option,,,"id(""searchDropdownBox"")/option[3]",10,Amazon Devices,0,0.0,0.0,0.0,0.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""searchDropdownBox"")",option,,,"id(""searchDropdownBox"")/option[4]",10,Amazon Fashion,0,0.0,0.0,0.0,0.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""searchDropdownBox"")",option,,,"id(""searchDropdownBox"")/option[5]",10,Amazon Fresh,0,0.0,0.0,0.0,0.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""searchDropdownBox"")",option,,,"id(""searchDropdownBox"")/option[6]",10,Amazon Pharmacy,0,0.0,0.0,0.0,0.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""searchDropdownBox"")",option,,,"id(""searchDropdownBox"")/option[7]",10,Appliances,0,0.0,0.0,0.0,0.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""searchDropdownBox"")",option,,,"id(""searchDropdownBox"")/option[8]",10,Apps & Games,0,0.0,0.0,0.0,0.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""searchDropdownBox"")",option,,,"id(""searchDropdownBox"")/option[9]",10,Baby,0,0.0,0.0,0.0,0.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""searchDropdownBox"")",option,,,"id(""searchDropdownBox"")/option[10]",10,Beauty,0,0.0,0.0,0.0,0.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""searchDropdownBox"")",option,,,"id(""searchDropdownBox"")/option[11]",10,Books,0,0.0,0.0,0.0,0.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""searchDropdownBox"")",option,,,"id(""searchDropdownBox"")/option[12]",10,Car & Motorbike,0,0.0,0.0,0.0,0.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""searchDropdownBox"")",option,,,"id(""searchDropdownBox"")/option[13]",10,Clothing & Accessories,0,0.0,0.0,0.0,0.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""searchDropdownBox"")",option,,,"id(""searchDropdownBox"")/option[14]",10,Collectibles,0,0.0,0.0,0.0,0.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""searchDropdownBox"")",option,,,"id(""searchDropdownBox"")/option[15]",10,Computers & Accessories,0,0.0,0.0,0.0,0.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""searchDropdownBox"")",option,,,"id(""searchDropdownBox"")/option[16]",10,Deals,0,0.0,0.0,0.0,0.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""searchDropdownBox"")",option,,,"id(""searchDropdownBox"")/option[17]",10,Electronics,0,0.0,0.0,0.0,0.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""searchDropdownBox"")",option,,,"id(""searchDropdownBox"")/option[18]",10,Furniture,0,0.0,0.0,0.0,0.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""searchDropdownBox"")",option,,,"id(""searchDropdownBox"")/option[19]",10,Garden & Outdoors,0,0.0,0.0,0.0,0.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""searchDropdownBox"")",option,,,"id(""searchDropdownBox"")/option[20]",10,Gift Cards,0,0.0,0.0,0.0,0.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""searchDropdownBox"")",option,,,"id(""searchDropdownBox"")/option[21]",10,Grocery & Gourmet Foods,0,0.0,0.0,0.0,0.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""searchDropdownBox"")",option,,,"id(""searchDropdownBox"")/option[22]",10,Health & Personal Care,0,0.0,0.0,0.0,0.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""searchDropdownBox"")",option,,,"id(""searchDropdownBox"")/option[23]",10,Home & Kitchen,0,0.0,0.0,0.0,0.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""searchDropdownBox"")",option,,,"id(""searchDropdownBox"")/option[24]",10,Industrial & Scientific,0,0.0,0.0,0.0,0.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""searchDropdownBox"")",option,,,"id(""searchDropdownBox"")/option[25]",10,Jewellery,0,0.0,0.0,0.0,0.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""searchDropdownBox"")",option,,,"id(""searchDropdownBox"")/option[26]",10,Kindle Store,0,0.0,0.0,0.0,0.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""searchDropdownBox"")",option,,,"id(""searchDropdownBox"")/option[27]",10,Luggage & Bags,0,0.0,0.0,0.0,0.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""searchDropdownBox"")",option,,,"id(""searchDropdownBox"")/option[28]",10,Luxury Beauty,0,0.0,0.0,0.0,0.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""searchDropdownBox"")",option,,,"id(""searchDropdownBox"")/option[29]",10,Movies & TV Shows,0,0.0,0.0,0.0,0.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""searchDropdownBox"")",option,,,"id(""searchDropdownBox"")/option[30]",10,Music,0,0.0,0.0,0.0,0.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""searchDropdownBox"")",option,,,"id(""searchDropdownBox"")/option[31]",10,Musical Instruments,0,0.0,0.0,0.0,0.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""searchDropdownBox"")",option,,,"id(""searchDropdownBox"")/option[32]",10,Office Products,0,0.0,0.0,0.0,0.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""searchDropdownBox"")",option,,,"id(""searchDropdownBox"")/option[33]",10,Pet Supplies,0,0.0,0.0,0.0,0.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""searchDropdownBox"")",option,,,"id(""searchDropdownBox"")/option[34]",10,Prime Video,0,0.0,0.0,0.0,0.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""searchDropdownBox"")",option,,,"id(""searchDropdownBox"")/option[35]",10,Shoes & Handbags,0,0.0,0.0,0.0,0.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""searchDropdownBox"")",option,,,"id(""searchDropdownBox"")/option[36]",10,Software,0,0.0,0.0,0.0,0.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""searchDropdownBox"")",option,,,"id(""searchDropdownBox"")/option[37]",10,"Sports, Fitness & Outdoors",0,0.0,0.0,0.0,0.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""searchDropdownBox"")",option,,,"id(""searchDropdownBox"")/option[38]",10,Subscribe & Save,0,0.0,0.0,0.0,0.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""searchDropdownBox"")",option,,,"id(""searchDropdownBox"")/option[39]",10,Tools & Home Improvement,0,0.0,0.0,0.0,0.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""searchDropdownBox"")",option,,,"id(""searchDropdownBox"")/option[40]",10,Toys & Games,0,0.0,0.0,0.0,0.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""searchDropdownBox"")",option,,,"id(""searchDropdownBox"")/option[41]",10,Under ₹500,0,0.0,0.0,0.0,0.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""searchDropdownBox"")",option,,,"id(""searchDropdownBox"")/option[42]",10,Video Games,0,0.0,0.0,0.0,0.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""searchDropdownBox"")",option,,,"id(""searchDropdownBox"")/option[43]",10,Watches,0,0.0,0.0,0.0,0.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-search-bar-form"")",div,,nav-fill,"id(""nav-search-bar-form"")/div[2]",6,Search Amazon.in,2,373.328125,77.0,444.7265625,40.0,flex,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-search-bar-form"")/div[2]",div,,nav-search-field,"id(""nav-search-bar-form"")/div[2]/div[1]",7,Search Amazon.in,2,373.328125,77.0,444.7265625,40.0,flex,static,"rgb(15, 17, 17)","rgb(255, 255, 255)",auto,visible
+,,"id(""nav-search-bar-form"")/div[2]/div[1]",label,,,"id(""nav-search-bar-form"")/div[2]/div[1]/label[1]",8,Search Amazon.in,0,0.0,0.0,0.0,0.0,none,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-search-bar-form"")/div[2]/div[1]",input,twotabsearchtextbox,"nav-input,nav-progressive-attribute","id(""twotabsearchtextbox"")",8,,0,373.328125,78.0,444.7265625,38.0,flex,static,"rgb(17, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-search-bar-form"")/div[2]",div,nav-iss-attach,,"id(""nav-iss-attach"")",7,,0,0.0,720.0,1265.0,0.0,block,absolute,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-search-bar-form"")",div,,nav-right,"id(""nav-search-bar-form"")/div[3]",6,,1,818.0546875,77.0,45.0,40.0,flex,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-search-bar-form"")/div[3]",div,,"nav-search-submit,nav-sprite","id(""nav-search-bar-form"")/div[3]/div[1]",7,,1,818.0546875,77.0,45.0,40.0,flex,static,"rgb(15, 17, 17)","rgb(254, 189, 105)",auto,visible
+,,"id(""nav-search-bar-form"")/div[3]/div[1]",span,nav-search-submit-text,"nav-search-submit-text,nav-sprite,nav-progressive-attribute","id(""nav-search-submit-text"")",8,,1,818.0546875,77.0,45.0,40.0,flex,static,"rgb(17, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-search-submit-text"")",input,nav-search-submit-button,"nav-input,nav-progressive-attribute","id(""nav-search-submit-button"")",9,,0,818.0546875,77.0,45.0,40.0,flex,static,"rgb(255, 255, 255)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-belt"")/div[2]",script,,,"id(""nav-belt"")/div[2]/script[2]",4,"window.navmet.push({key:'Search',end:+new Date(),begin:window.navmet.tmp});",0,0.0,0.0,0.0,0.0,none,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-belt"")",div,,nav-right,"id(""nav-belt"")/div[3]",3,"window.navmet.tmp=+new Date();
+          
+              
+              
+              
+             ",3,873.0546875,67.0,391.9453125,60.0,flex,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-belt"")/div[3]",script,,,"id(""nav-belt"")/div[3]/script[1]",4,window.navmet.tmp=+new Date();,0,0.0,0.0,0.0,0.0,none,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-belt"")/div[3]",div,nav-tools,layoutToolbarPadding,"id(""nav-tools"")",4,"EN
+        
+      
+    
+  
+
+              
+  
+  Hello, sign in
+  Account & Lists
+  
+
+
+              ",4,873.0546875,69.0,391.9453125,58.0,flex,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-tools"")",a,icp-nav-flyout,"nav-a,nav-a-2,icp-link-style-2","id(""icp-nav-flyout"")",5,EN,1,874.0546875,72.0,74.453125,50.0,flex,static,"rgb(214, 214, 214)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""icp-nav-flyout"")",span,,icp-nav-link-inner,"id(""icp-nav-flyout"")/span[1]",6,EN,2,883.0546875,78.0,56.453125,33.0,flex,static,"rgb(214, 214, 214)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""icp-nav-flyout"")/span[1]",span,,nav-line-1,"id(""icp-nav-flyout"")/span[1]/span[1]",7,,0,907.28125,78.0,8.0,14.0,flex,static,"rgb(255, 255, 255)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""icp-nav-flyout"")/span[1]",span,,nav-line-2,"id(""icp-nav-flyout"")/span[1]/span[2]",7,EN,3,884.0546875,92.0,55.453125,19.0,flex,static,"rgb(255, 255, 255)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""icp-nav-flyout"")/span[1]/span[2]",span,,"icp-nav-flag,icp-nav-flag-in,icp-nav-flag-lop","id(""icp-nav-flyout"")/span[1]/span[2]/span[1]",8,,0,885.2546997070312,92.9000015258789,21.5999755859375,16.199996948242188,flex,static,"rgb(255, 255, 255)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""icp-nav-flyout"")/span[1]/span[2]",div,,,"id(""icp-nav-flyout"")/span[1]/span[2]/div[1]",8,EN,0,910.0546875,94.0,19.453125,15.0,flex,static,"rgb(255, 255, 255)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""icp-nav-flyout"")/span[1]/span[2]",span,,"nav-icon,nav-arrow","id(""icp-nav-flyout"")/span[1]/span[2]/span[2]",8,,0,931.5078125,102.5,8.0,4.0,flex,static,"rgb(255, 255, 255)","rgba(0, 0, 0, 0)",auto,hidden
+,,"id(""nav-tools"")",a,nav-link-accountList,"nav-a,nav-a-2,nav-progressive-attribute","id(""nav-link-accountList"")",5,"Hello, sign in
+  Account & Lists",2,950.5078125,72.0,137.5703125,50.0,flex,relative,"rgb(214, 214, 214)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-link-accountList"")",div,,nav-line-1-container,"id(""nav-link-accountList"")/div[1]",6,"Hello, sign in",1,959.5078125,82.0,119.5703125,14.0,flex,relative,"rgb(214, 214, 214)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-link-accountList"")/div[1]",span,nav-link-accountList-nav-line-1,"nav-line-1,nav-progressive-content","id(""nav-link-accountList-nav-line-1"")",7,"Hello, sign in",0,959.5078125,82.0,68.703125,14.0,flex,static,"rgb(255, 255, 255)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-link-accountList"")",span,,nav-line-2,"id(""nav-link-accountList"")/span[1]",6,Account & Lists,1,959.5078125,96.0,119.5703125,15.0,flex,static,"rgb(255, 255, 255)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-link-accountList"")/span[1]",span,,"nav-icon,nav-arrow","id(""nav-link-accountList"")/span[1]/span[1]",7,,0,1071.078125,103.0,8.0,4.0,flex,static,"rgb(255, 255, 255)","rgba(0, 0, 0, 0)",auto,hidden
+,,"id(""nav-tools"")",a,nav-orders,"nav-a,nav-a-2,nav-progressive-attribute","id(""nav-orders"")",5,"Returns
+  & Orders",2,1090.078125,72.0,77.9140625,50.0,flex,static,"rgb(214, 214, 214)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-orders"")",span,,nav-line-1,"id(""nav-orders"")/span[1]",6,Returns,0,1099.078125,82.0,59.9140625,14.0,flex,static,"rgb(255, 255, 255)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-orders"")",span,,nav-line-2,"id(""nav-orders"")/span[2]",6,& Orders,1,1099.078125,96.0,59.9140625,15.0,flex,static,"rgb(255, 255, 255)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-orders"")/span[2]",span,,"nav-icon,nav-arrow","id(""nav-orders"")/span[2]/span[1]",7,,0,0.0,0.0,0.0,0.0,none,static,"rgb(255, 255, 255)","rgba(0, 0, 0, 0)",auto,hidden
+,,"id(""nav-tools"")",a,nav-cart,"nav-a,nav-a-2,nav-progressive-attribute","id(""nav-cart"")",5,Cart,2,1169.9921875,72.0,84.0078125,50.0,flex,static,"rgb(214, 214, 214)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-cart"")",div,nav-cart-count-container,,"id(""nav-cart-count-container"")",6,,2,1178.9921875,72.0,38.0,39.0,flex,relative,"rgb(214, 214, 214)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-cart-count-container"")",span,nav-cart-count,"nav-cart-count,nav-cart-0,nav-progressive-attribute,nav-progressive-content","id(""nav-cart-count"")",7,,0,1191.9921875,80.0,19.0,0.0,flex,absolute,"rgb(240, 136, 4)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-cart-count-container"")",span,,"nav-cart-icon,nav-sprite","id(""nav-cart-count-container"")/span[2]",7,,0,1178.9921875,84.0,38.0,26.0,flex,static,"rgb(214, 214, 214)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-cart"")",div,nav-cart-text-container,nav-progressive-attribute,"id(""nav-cart-text-container"")",6,Cart,2,1216.9921875,72.0,28.0078125,39.0,flex,static,"rgb(214, 214, 214)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-cart-text-container"")",span,,nav-line-1,"id(""nav-cart-text-container"")/span[1]",7,,0,1216.9921875,82.0,0.0,14.0,flex,static,"rgb(255, 255, 255)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-cart-text-container"")",span,,nav-line-2,"id(""nav-cart-text-container"")/span[2]",7,Cart,1,1216.9921875,96.0,28.0078125,15.0,flex,static,"rgb(255, 255, 255)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-cart-text-container"")/span[2]",span,,"nav-icon,nav-arrow","id(""nav-cart-text-container"")/span[2]/span[1]",8,,0,0.0,0.0,0.0,0.0,none,static,"rgb(255, 255, 255)","rgba(0, 0, 0, 0)",auto,hidden
+,,"id(""nav-belt"")/div[3]",script,,,"id(""nav-belt"")/div[3]/script[2]",4,"window.navmet.push({key:'Tools',end:+new Date(),begin:window.navmet.tmp});",0,0.0,0.0,0.0,0.0,none,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navbar"")",div,nav-main,nav-sprite,"id(""nav-main"")",2,"window.navmet.tmp=+new Date();
+  
+    
+    All
+  
+  
+
+  var hmenu = document.getElementById(""nav-ham",3,0.0,127.0,1265.0,39.0,flex,static,"rgb(15, 17, 17)","rgb(35, 47, 62)",4,visible
+,,"id(""nav-main"")",div,,nav-left,"id(""nav-main"")/div[1]",3,"window.navmet.tmp=+new Date();
+  
+    
+    All
+  
+  
+
+  var hmenu = document.getElementById(""nav-ham",4,11.0,127.0,57.890625,39.0,flex,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-main"")/div[1]",script,,,"id(""nav-main"")/div[1]/script[1]",4,window.navmet.tmp=+new Date();,0,0.0,0.0,0.0,0.0,none,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-main"")/div[1]",a,nav-hamburger-menu,,"id(""nav-hamburger-menu"")",4,All,2,11.0,127.0,57.890625,39.0,flex,static,"rgb(255, 255, 255)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-hamburger-menu"")",i,,"hm-icon,nav-sprite","id(""nav-hamburger-menu"")/i[1]",5,,0,20.0,139.5,17.0,14.0,flex,static,"rgb(255, 255, 255)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-hamburger-menu"")",span,,hm-icon-label,"id(""nav-hamburger-menu"")/span[1]",5,All,0,37.0,140.5,22.890625,12.0,block,static,"rgb(255, 255, 255)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-main"")/div[1]",script,,,"id(""nav-main"")/div[1]/script[2]",4,"var hmenu = document.getElementById(""nav-hamburger-menu"");
+  hmenu.setAttribute(""href"", ""javascript:",0,0.0,0.0,0.0,0.0,none,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-main"")/div[1]",script,,,"id(""nav-main"")/div[1]/script[3]",4,"window.navmet.push({key:'HamburgerMenuIcon',end:+new Date(),begin:window.navmet.tmp});",0,0.0,0.0,0.0,0.0,none,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-main"")",div,,nav-fill,"id(""nav-main"")/div[2]",3,"window.navmet.tmp=+new Date();
+Sell
+
+Amazon miniTV
+
+Best Sellers
+
+Mobiles
+
+Customer Service
+
+Today's",2,68.890625,127.0,778.109375,39.0,flex,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-main"")/div[2]",div,nav-shop,,"id(""nav-shop"")",4,,0,68.890625,127.0,0.0,39.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-main"")/div[2]",div,nav-xshop-container,,"id(""nav-xshop-container"")",4,"window.navmet.tmp=+new Date();
+Sell
+
+Amazon miniTV
+
+Best Sellers
+
+Mobiles
+
+Customer Service
+
+Today's",1,68.890625,127.0,778.109375,39.0,flex,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",20,visible
+,,"id(""nav-xshop-container"")",div,nav-xshop,nav-progressive-content,"id(""nav-xshop"")",5,"window.navmet.tmp=+new Date();
+Sell
+
+Amazon miniTV
+
+Best Sellers
+
+Mobiles
+
+Customer Service
+
+Today's",33,68.890625,127.0,778.109375,39.0,flex,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-xshop"")",script,,,"id(""nav-xshop"")/script[1]",6,window.navmet.tmp=+new Date();,0,0.0,0.0,0.0,0.0,none,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-xshop"")",a,,nav-a,"id(""nav-xshop"")/a[1]",6,Sell,0,68.890625,132.0,41.3515625,28.0,block,static,"rgb(255, 255, 255)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-xshop"")",a,,nav-a,"id(""nav-xshop"")/a[2]",6,Amazon miniTV,0,110.2421875,132.0,116.8125,28.0,block,static,"rgb(255, 255, 255)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-xshop"")",a,,nav-a,"id(""nav-xshop"")/a[3]",6,Best Sellers,0,227.0546875,132.0,92.703125,28.0,block,static,"rgb(255, 255, 255)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-xshop"")",a,,nav-a,"id(""nav-xshop"")/a[4]",6,Mobiles,0,319.7578125,132.0,66.2421875,28.0,block,static,"rgb(255, 255, 255)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-xshop"")",a,,nav-a,"id(""nav-xshop"")/a[5]",6,Customer Service,0,386.0,132.0,129.2578125,28.0,block,static,"rgb(255, 255, 255)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-xshop"")",a,,nav-a,"id(""nav-xshop"")/a[6]",6,Today's Deals,0,515.2578125,132.0,104.71875,28.0,block,static,"rgb(255, 255, 255)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-xshop"")",a,,nav-a,"id(""nav-xshop"")/a[7]",6,Electronics,0,619.9765625,132.0,86.46875,28.0,block,static,"rgb(255, 255, 255)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-xshop"")",a,nav-link-amazonprime,nav-a,"id(""nav-link-amazonprime"")",6,Prime,2,706.4453125,132.0,67.5625,28.0,block,static,"rgb(255, 255, 255)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-link-amazonprime"")",span,,,"id(""nav-link-amazonprime"")/span[1]",7,Prime,0,715.4453125,138.0,36.5625,15.5,inline,static,"rgb(255, 255, 255)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-link-amazonprime"")",span,,"nav-icon,nav-arrow","id(""nav-link-amazonprime"")/span[2]",7,,0,757.0078125,144.5,8.0,4.0,inline-flex,static,"rgb(255, 255, 255)","rgba(0, 0, 0, 0)",auto,hidden
+,,"id(""nav-xshop"")",a,,nav-a,"id(""nav-xshop"")/a[9]",6,Amazon Pay,0,68.890625,171.0,97.375,28.0,block,static,"rgb(255, 255, 255)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-xshop"")",a,,nav-a,"id(""nav-xshop"")/a[10]",6,Fashion,0,166.265625,171.0,67.8125,28.0,block,static,"rgb(255, 255, 255)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-xshop"")",a,,nav-a,"id(""nav-xshop"")/a[11]",6,New Releases,0,234.078125,171.0,108.265625,28.0,block,static,"rgb(255, 255, 255)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-xshop"")",a,,nav-a,"id(""nav-xshop"")/a[12]",6,Home & Kitchen,0,342.34375,171.0,119.1640625,28.0,block,static,"rgb(255, 255, 255)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-xshop"")",a,,nav-a,"id(""nav-xshop"")/a[13]",6,Beauty & Personal Care,0,461.5078125,171.0,168.1953125,28.0,block,static,"rgb(255, 255, 255)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-xshop"")",a,,nav-a,"id(""nav-xshop"")/a[14]",6,Computers,0,629.703125,171.0,86.46875,28.0,block,static,"rgb(255, 255, 255)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-xshop"")",a,,nav-a,"id(""nav-xshop"")/a[15]",6,Books,0,716.171875,171.0,56.9140625,28.0,block,static,"rgb(255, 255, 255)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-xshop"")",a,,nav-a,"id(""nav-xshop"")/a[16]",6,Coupons,0,68.890625,210.0,74.046875,28.0,block,static,"rgb(255, 255, 255)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-xshop"")",a,,nav-a,"id(""nav-xshop"")/a[17]",6,Toys & Games,0,142.9375,210.0,109.03125,28.0,block,static,"rgb(255, 255, 255)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-xshop"")",a,,nav-a,"id(""nav-xshop"")/a[18]",6,Car & Motorbike,0,251.96875,210.0,119.1484375,28.0,block,static,"rgb(255, 255, 255)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-xshop"")",a,,nav-a,"id(""nav-xshop"")/a[19]",6,"Sports, Fitness & Outdoors",0,371.1171875,210.0,186.0703125,28.0,block,static,"rgb(255, 255, 255)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-xshop"")",a,,nav-a,"id(""nav-xshop"")/a[20]",6,Grocery & Gourmet Foods,0,557.1875,210.0,182.171875,28.0,block,static,"rgb(255, 255, 255)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-xshop"")",a,,nav-a,"id(""nav-xshop"")/a[21]",6,Gift Cards,0,739.359375,210.0,81.015625,28.0,block,static,"rgb(255, 255, 255)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-xshop"")",a,,nav-a,"id(""nav-xshop"")/a[22]",6,"Health, Household & Personal Care",0,68.890625,249.0,239.796875,28.0,block,static,"rgb(255, 255, 255)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-xshop"")",a,,nav-a,"id(""nav-xshop"")/a[23]",6,Baby,0,308.6875,249.0,49.9140625,28.0,block,static,"rgb(255, 255, 255)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-xshop"")",a,,nav-a,"id(""nav-xshop"")/a[24]",6,Video Games,0,358.6015625,249.0,102.5703125,28.0,block,static,"rgb(255, 255, 255)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-xshop"")",a,,nav-a,"id(""nav-xshop"")/a[25]",6,Gift Ideas,0,461.171875,249.0,77.921875,28.0,block,static,"rgb(255, 255, 255)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-xshop"")",a,,nav-a,"id(""nav-xshop"")/a[26]",6,Pet Supplies,0,539.09375,249.0,96.609375,28.0,block,static,"rgb(255, 255, 255)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-xshop"")",a,,nav-a,"id(""nav-xshop"")/a[27]",6,Home Improvement,0,635.703125,249.0,140.9375,28.0,block,static,"rgb(255, 255, 255)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-xshop"")",a,,nav-a,"id(""nav-xshop"")/a[28]",6,Audible,0,776.640625,249.0,64.703125,28.0,block,static,"rgb(255, 255, 255)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-xshop"")",a,,nav-a,"id(""nav-xshop"")/a[29]",6,AmazonBasics,0,68.890625,288.0,110.59375,28.0,block,static,"rgb(255, 255, 255)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-xshop"")",a,,nav-a,"id(""nav-xshop"")/a[30]",6,Subscribe & Save,0,179.484375,288.0,129.2890625,28.0,block,static,"rgb(255, 255, 255)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-xshop"")",a,,nav-a,"id(""nav-xshop"")/a[31]",6,Kindle eBooks,0,308.7734375,288.0,107.5078125,28.0,block,static,"rgb(255, 255, 255)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-xshop"")",script,,,"id(""nav-xshop"")/script[2]",6,"window.navmet.push({key:'CrossShop',end:+new Date(),begin:window.navmet.tmp});",0,0.0,0.0,0.0,0.0,none,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-main"")",div,,nav-right,"id(""nav-main"")/div[3]",3,"window.navmet.tmp=+new Date();
+
+  
+    
+  
+
+      
+  
+window.navmet.push({key:'SWM',end:+new Date(),",3,847.0,127.0,418.0,39.0,flex,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-main"")/div[3]",script,,,"id(""nav-main"")/div[3]/script[1]",4,window.navmet.tmp=+new Date();,0,0.0,0.0,0.0,0.0,none,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-main"")/div[3]",div,nav-swmslot,,"id(""nav-swmslot"")",4,,1,847.0,127.0,418.0,39.0,block,relative,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-swmslot"")",div,navSwmHoliday,,"id(""navSwmHoliday"")",5,,1,865.0,127.0,400.0,39.0,block,relative,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navSwmHoliday"")",a,,nav-imageHref,"id(""navSwmHoliday"")/a[1]",6,,1,865.0,127.0,400.0,39.0,block,static,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navSwmHoliday"")/a[1]",img,,,"id(""navSwmHoliday"")/a[1]/img[1]",7,,0,865.0,127.0,400.0,39.0,inline,static,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""nav-main"")/div[3]",script,,,"id(""nav-main"")/div[3]/script[2]",4,"window.navmet.push({key:'SWM',end:+new Date(),begin:window.navmet.tmp});",0,0.0,0.0,0.0,0.0,none,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navbar"")",div,nav-subnav-toaster,,"id(""nav-subnav-toaster"")",2,,0,0.0,166.0,1265.0,0.0,flex,relative,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navbar"")",div,nav-progressive-subnav,,"id(""nav-progressive-subnav"")",2,,0,0.0,166.0,1265.0,0.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+6370c743-5af3-4236-8399-9d3ddece4e56,,,a,skippedLink,,"id(""skippedLink"")",0,,0,0.0,166.0,0.0,0.0,inline,static,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+c0139a1a-d836-49e6-a8e2-7d096f2d6bde,,,div,pageContent,"a-section,a-spacing-none","id(""pageContent"")",0,"window.GWI && GWI.AssetUtil && GWI.AssetUtil.load();
+    window.P && P.register('preload');
+
+
+ 
+  
+ ",7,0.0,166.0,1265.0,1174.0,block,static,"rgb(15, 17, 17)","rgb(227, 230, 230)",auto,visible
+,c0139a1a-d836-49e6-a8e2-7d096f2d6bde,"id(""pageContent"")",a,,,"id(""pageContent"")/a[1]",1,,0,0.0,166.0,0.0,0.0,inline,static,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,c0139a1a-d836-49e6-a8e2-7d096f2d6bde,"id(""pageContent"")",script,,,"id(""pageContent"")/script[1]",1,"window.GWI && GWI.AssetUtil && GWI.AssetUtil.load();
+    window.P && P.register('preload');",0,0.0,0.0,0.0,0.0,none,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,c0139a1a-d836-49e6-a8e2-7d096f2d6bde,"id(""pageContent"")",div,desktop-banner,celwidget,"id(""desktop-banner"")",1,"Previous slide
+    
+    
+     
+      
+       
+       
+        
+         ._cropped-image-link_style_c",1,0.0,166.0,1265.0,230.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""desktop-banner"")",div,gw-desktop-herotator,"a-section,a-spacing-none,aok-relative,tall","id(""gw-desktop-herotator"")",2,"Previous slide
+    
+    
+     
+      
+       
+       
+        
+         ._cropped-image-link_style_c",1,0.0,166.0,1265.0,230.0,block,relative,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",0,visible
+,,"id(""gw-desktop-herotator"")",div,,"a-begin,a-carousel-container,a-carousel-static,a-carousel-display-single,a-carousel-transition-slideCircular,gw-desktop-herotator","id(""gw-desktop-herotator"")/div[1]",3,"Previous slide
+    
+    
+     
+      
+       
+       
+        
+         ._cropped-image-link_style_c",3,0.0,166.0,1265.0,230.0,block,relative,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""gw-desktop-herotator"")/div[1]",input,,a-carousel-firstvisibleitem,"id(""gw-desktop-herotator"")/div[1]/input[1]",4,,0,0.0,0.0,0.0,0.0,none,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""gw-desktop-herotator"")/div[1]",div,,"a-row,a-carousel-controls,a-carousel-row,a-carousel-has-buttons,a-carousel-overlay-buttons,a-carousel-rounded-buttons","id(""gw-desktop-herotator"")/div[1]/div[1]",4,"Previous slide
+    
+    
+     
+      
+       
+       
+        
+         ._cropped-image-link_style_c",1,0.0,166.0,1265.0,230.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""gw-desktop-herotator"")/div[1]/div[1]",div,,a-carousel-row-inner,"id(""gw-desktop-herotator"")/div[1]/div[1]/div[1]",5,"Previous slide
+    
+    
+     
+      
+       
+       
+        
+         ._cropped-image-link_style_c",3,0.0,166.0,1265.0,600.0,block,relative,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""gw-desktop-herotator"")/div[1]/div[1]/div[1]",div,,"a-carousel-col,a-carousel-left","id(""gw-desktop-herotator"")/div[1]/div[1]/div[1]/div[1]",6,Previous slide,1,0.0,166.0,80.0,250.0,block,absolute,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",1,hidden
+,,"id(""gw-desktop-herotator"")/div[1]/div[1]/div[1]/div[1]",a,,a-carousel-goto-prevpage,"id(""gw-desktop-herotator"")/div[1]/div[1]/div[1]/div[1]/a[1]",7,Previous slide,1,0.0,166.0,80.0,250.0,block,absolute,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,hidden
+,,"id(""gw-desktop-herotator"")/div[1]/div[1]/div[1]/div[1]/a[1]",i,,"a-icon,a-icon-previous-rounded","id(""gw-desktop-herotator"")/div[1]/div[1]/div[1]/div[1]/a[1]/i[1]",8,Previous slide,1,23.0,265.0,34.0,52.0,block,absolute,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,hidden
+,,"id(""gw-desktop-herotator"")/div[1]/div[1]/div[1]/div[1]/a[1]/i[1]",span,,a-icon-alt,"id(""gw-desktop-herotator"")/div[1]/div[1]/div[1]/div[1]/a[1]/i[1]/span[1]",9,Previous slide,0,-9976.0,265.0,1.0,1.0,block,absolute,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,hidden
+,,"id(""gw-desktop-herotator"")/div[1]/div[1]/div[1]",div,,"a-carousel-col,a-carousel-center","id(""gw-desktop-herotator"")/div[1]/div[1]/div[1]/div[2]",6,._cropped-image-link_style_cropped-image-link__3winf{height:600px}@media (max-width:767px){._cropped,1,0.0,166.0,1265.0,600.0,block,relative,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""gw-desktop-herotator"")/div[1]/div[1]/div[1]/div[2]",div,,a-carousel-viewport,"id(""gw-desktop-herotator"")/div[1]/div[1]/div[1]/div[2]/div[1]",7,._cropped-image-link_style_cropped-image-link__3winf{height:600px}@media (max-width:767px){._cropped,1,0.0,166.0,1265.0,600.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""gw-desktop-herotator"")/div[1]/div[1]/div[1]/div[2]/div[1]",ol,,a-carousel,"id(""gw-desktop-herotator"")/div[1]/div[1]/div[1]/div[2]/div[1]/ol[1]",8,._cropped-image-link_style_cropped-image-link__3winf{height:600px}@media (max-width:767px){._cropped,1,0.0,166.0,1265.0,600.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""gw-desktop-herotator"")/div[1]/div[1]/div[1]/div[2]/div[1]/ol[1]",li,,a-carousel-card,"id(""gw-desktop-herotator"")/div[1]/div[1]/div[1]/div[2]/div[1]/ol[1]/li[1]",9,._cropped-image-link_style_cropped-image-link__3winf{height:600px}@media (max-width:767px){._cropped,1,0.0,166.0,1265.0,600.0,inline-block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""gw-desktop-herotator"")/div[1]/div[1]/div[1]/div[2]/div[1]/ol[1]/li[1]",div,gw-ftGr-desktop-hero-1,"gw-ftGr-desktop-hero,gw-critical-content,csm-placement-id-ddfd993d-951c-4efa-8e21-c73ef01e66bf,desktop-gateway-atf_d02574e0-8188-41b9-a5d4-24626f928e1a,celwidget,pd_rd_wg-7i0l3,pd_rd_w-dzAo7,pd_rd_r-43f99f44-a581-461f-8e4f-308fa354d24a","id(""gw-ftGr-desktop-hero-1"")",10,._cropped-image-link_style_cropped-image-link__3winf{height:600px}@media (max-width:767px){._cropped,3,0.0,166.0,1265.0,600.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""gw-ftGr-desktop-hero-1"")",style,,,"id(""gw-ftGr-desktop-hero-1"")/style[1]",11,._cropped-image-link_style_cropped-image-link__3winf{height:600px}@media (max-width:767px){._cropped,0,0.0,0.0,0.0,0.0,none,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""gw-ftGr-desktop-hero-1"")",div,D7PHCIM_SlQA_IOYbIZvww,"a-section,a-spacing-none,_cropped-image-link_style_cropped-image-link__3winf,cropped-image-link","id(""D7PHCIM_SlQA_IOYbIZvww"")",11,,1,0.0,166.0,1265.0,600.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""D7PHCIM_SlQA_IOYbIZvww"")",a,,"a-link-normal,_cropped-image-link_style_centerImage__1rzYI,aok-block,image-window","id(""D7PHCIM_SlQA_IOYbIZvww"")/a[1]",12,,1,0.0,166.0,1265.0,600.0,block,relative,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""D7PHCIM_SlQA_IOYbIZvww"")/a[1]",div,,"a-section,a-spacing-none,_cropped-image-link_style_fluidImageContainer__2jd50","id(""D7PHCIM_SlQA_IOYbIZvww"")/a[1]/div[1]",13,,1,0.0,166.0,1265.0,600.0,block,relative,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""D7PHCIM_SlQA_IOYbIZvww"")/a[1]/div[1]",img,,"_cropped-image-link_style_fluidLandscapeImage__3eTVC,_cropped-image-link_style_fluidImage__iJ3aE","id(""D7PHCIM_SlQA_IOYbIZvww"")/a[1]/div[1]/img[1]",14,,0,-117.5,166.0,1500.0,600.0,block,absolute,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""gw-ftGr-desktop-hero-1"")",script,,,"id(""gw-ftGr-desktop-hero-1"")/script[1]",11,(function(f){f(P._namespace('gwiAutoInstVisible'));}(function(P) {if(window.GWI){GWI.Card.autoInstVi,0,0.0,0.0,0.0,0.0,none,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""gw-desktop-herotator"")/div[1]/div[1]/div[1]",div,,"a-carousel-col,a-carousel-right","id(""gw-desktop-herotator"")/div[1]/div[1]/div[1]/div[3]",6,Next slide,1,1185.0,166.0,80.0,250.0,block,absolute,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",1,hidden
+,,"id(""gw-desktop-herotator"")/div[1]/div[1]/div[1]/div[3]",a,,a-carousel-goto-nextpage,"id(""gw-desktop-herotator"")/div[1]/div[1]/div[1]/div[3]/a[1]",7,Next slide,1,1185.0,166.0,80.0,250.0,block,absolute,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,hidden
+,,"id(""gw-desktop-herotator"")/div[1]/div[1]/div[1]/div[3]/a[1]",i,,"a-icon,a-icon-next-rounded","id(""gw-desktop-herotator"")/div[1]/div[1]/div[1]/div[3]/a[1]/i[1]",8,Next slide,1,1208.0,265.0,34.0,52.0,block,absolute,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,hidden
+,,"id(""gw-desktop-herotator"")/div[1]/div[1]/div[1]/div[3]/a[1]/i[1]",span,,a-icon-alt,"id(""gw-desktop-herotator"")/div[1]/div[1]/div[1]/div[3]/a[1]/i[1]/span[1]",9,Next slide,0,-8791.0,265.0,1.0,1.0,block,absolute,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,hidden
+,,"id(""gw-desktop-herotator"")/div[1]",span,,"a-end,aok-hidden","id(""gw-desktop-herotator"")/div[1]/span[1]",4,,0,0.0,0.0,0.0,0.0,none,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,hidden
+,c0139a1a-d836-49e6-a8e2-7d096f2d6bde,"id(""pageContent"")",script,,,"id(""pageContent"")/script[2]",1,"GwInstrumentation.markH1Af({ uri: ""/ah/ajax/counter?ctr=desktop_ajax_atf&exp=1677662727503&rId=18AKA",0,0.0,0.0,0.0,0.0,none,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,c0139a1a-d836-49e6-a8e2-7d096f2d6bde,"id(""pageContent"")",script,,,"id(""pageContent"")/script[3]",1,"P.when(""LinkDecorator"").execute(""LDEventListenerInit"", function(ld){ ld(""pageContent""); })",0,0.0,0.0,0.0,0.0,none,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,c0139a1a-d836-49e6-a8e2-7d096f2d6bde,"id(""pageContent"")",div,gw-layout,"a-section,a-spacing-none,aok-relative","id(""gw-layout"")",1,"(function setMeshBreakPoint(w, d) {
+    var g = d.getElementById('gw-card-layout'),
+        WS = 123",2,0.0,396.0,1265.0,920.0,block,relative,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""gw-layout"")",div,gw-card-layout,"a-section,a-spacing-none,gw-card-layout","id(""gw-card-layout"")",2,"(function setMeshBreakPoint(w, d) {
+    var g = d.getElementById('gw-card-layout'),
+        WS = 123",7,10.0,396.0,1245.0,480.0,flex,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""gw-card-layout"")",script,,,"id(""gw-card-layout"")/script[1]",3,"(function setMeshBreakPoint(w, d) {
+    var g = d.getElementById('gw-card-layout'),
+        WS = 123",0,0.0,0.0,0.0,0.0,none,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""gw-card-layout"")",div,desktop-grid-1,"gw-col,csm-placement-id-STATIC_FALLBACK_desktop-grid-1_PID,STATIC_FALLBACK_desktop-grid-1_CID,celwidget","id(""desktop-grid-1"")",3,".a-cardui.fluid-fat-image-link .a-cardui-body .center-image{height:100%;width:100%}
+.fluid-card{-web",3,10.0,416.0,311.25,420.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""desktop-grid-1"")",style,,,"id(""desktop-grid-1"")/style[1]",4,".a-cardui.fluid-fat-image-link .a-cardui-body .center-image{height:100%;width:100%}
+.fluid-card{-web",0,0.0,0.0,0.0,0.0,none,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""desktop-grid-1"")",div,hQrLHzEecJyJotKoS9a_4g,"a-cardui,fluid-fat-image-link,fluid-card","id(""hQrLHzEecJyJotKoS9a_4g"")",4,"Makeup products
+ 
+ 
+  
+   
+    
+   
+ 
+ 
+  See more",3,20.0,416.0,291.25,420.0,flex,relative,"rgb(15, 17, 17)","rgb(255, 255, 255)",auto,visible
+,,"id(""hQrLHzEecJyJotKoS9a_4g"")",div,,a-cardui-header,"id(""hQrLHzEecJyJotKoS9a_4g"")/div[1]",5,Makeup products,1,20.0,436.0,291.25,27.296875,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""hQrLHzEecJyJotKoS9a_4g"")/div[1]",h2,,"a-color-base,headline,truncate-2line","id(""hQrLHzEecJyJotKoS9a_4g"")/div[1]/h2[1]",6,Makeup products,0,40.0,436.0,251.25,27.296875,flow-root,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""hQrLHzEecJyJotKoS9a_4g"")",div,,a-cardui-body,"id(""hQrLHzEecJyJotKoS9a_4g"")/div[2]",5,,1,20.0,473.296875,291.25,303.703125,block,relative,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""hQrLHzEecJyJotKoS9a_4g"")/div[2]",a,,"a-link-normal,center-image,aok-block,image-window","id(""hQrLHzEecJyJotKoS9a_4g"")/div[2]/a[1]",6,,1,40.0,473.296875,251.25,303.703125,block,relative,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""hQrLHzEecJyJotKoS9a_4g"")/div[2]/a[1]",div,,"a-section,a-spacing-none,fluid-image-container","id(""hQrLHzEecJyJotKoS9a_4g"")/div[2]/a[1]/div[1]",7,,1,40.0,473.296875,251.25,303.703125,block,relative,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""hQrLHzEecJyJotKoS9a_4g"")/div[2]/a[1]/div[1]",img,,landscape-image,"id(""hQrLHzEecJyJotKoS9a_4g"")/div[2]/a[1]/div[1]/img[1]",8,,0,13.7734375,473.296875,303.703125,303.703125,block,absolute,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""hQrLHzEecJyJotKoS9a_4g"")",div,,a-cardui-footer,"id(""hQrLHzEecJyJotKoS9a_4g"")/div[3]",5,See more,1,20.0,797.0,291.25,19.0,block,absolute,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""hQrLHzEecJyJotKoS9a_4g"")/div[3]",a,,"a-link-normal,see-more,truncate-1line","id(""hQrLHzEecJyJotKoS9a_4g"")/div[3]/a[1]",6,See more,0,40.0,797.0,251.25,19.0,block,static,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""desktop-grid-1"")",script,,,"id(""desktop-grid-1"")/script[1]",4,(function(f){f(P._namespace('gwiAutoInstVisible'));}(function(P) {if(window.GWI){GWI.Card.autoInstVi,0,0.0,0.0,0.0,0.0,none,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""gw-card-layout"")",div,desktop-grid-2,"gw-col,csm-placement-id-STATIC_FALLBACK_desktop-grid-2_PID,STATIC_FALLBACK_desktop-grid-2_CID,celwidget","id(""desktop-grid-2"")",3,".a-cardui.fluid-fat-image-link .a-cardui-body .center-image{height:100%;width:100%}
+.fluid-card{-web",3,321.25,416.0,311.25,420.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""desktop-grid-2"")",style,,,"id(""desktop-grid-2"")/style[1]",4,".a-cardui.fluid-fat-image-link .a-cardui-body .center-image{height:100%;width:100%}
+.fluid-card{-web",0,0.0,0.0,0.0,0.0,none,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""desktop-grid-2"")",div,6X3nLKwJgOY7mUdbaeps0w,"a-cardui,fluid-fat-image-link,fluid-card","id(""6X3nLKwJgOY7mUdbaeps0w"")",4,"New looks for the new season
+ 
+ 
+  
+   
+    
+   
+ 
+ 
+  Shop fashion",3,331.25,416.0,291.25,420.0,flex,relative,"rgb(15, 17, 17)","rgb(255, 255, 255)",auto,visible
+,,"id(""6X3nLKwJgOY7mUdbaeps0w"")",div,,a-cardui-header,"id(""6X3nLKwJgOY7mUdbaeps0w"")/div[1]",5,New looks for the new season,1,331.25,436.0,291.25,54.59375,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""6X3nLKwJgOY7mUdbaeps0w"")/div[1]",h2,,"a-color-base,headline,truncate-2line","id(""6X3nLKwJgOY7mUdbaeps0w"")/div[1]/h2[1]",6,New looks for the new season,0,351.25,436.0,251.25,54.59375,flow-root,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""6X3nLKwJgOY7mUdbaeps0w"")",div,,a-cardui-body,"id(""6X3nLKwJgOY7mUdbaeps0w"")/div[2]",5,,1,331.25,500.59375,291.25,276.40625,block,relative,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""6X3nLKwJgOY7mUdbaeps0w"")/div[2]",a,,"a-link-normal,center-image,aok-block,image-window","id(""6X3nLKwJgOY7mUdbaeps0w"")/div[2]/a[1]",6,,1,351.25,500.59375,251.25,276.40625,block,relative,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""6X3nLKwJgOY7mUdbaeps0w"")/div[2]/a[1]",div,,"a-section,a-spacing-none,fluid-image-container","id(""6X3nLKwJgOY7mUdbaeps0w"")/div[2]/a[1]/div[1]",7,,1,351.25,500.59375,251.25,276.40625,block,relative,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""6X3nLKwJgOY7mUdbaeps0w"")/div[2]/a[1]/div[1]",img,,landscape-image,"id(""6X3nLKwJgOY7mUdbaeps0w"")/div[2]/a[1]/div[1]/img[1]",8,,0,338.671875,500.59375,276.40625,276.40625,block,absolute,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""6X3nLKwJgOY7mUdbaeps0w"")",div,,a-cardui-footer,"id(""6X3nLKwJgOY7mUdbaeps0w"")/div[3]",5,Shop fashion,1,331.25,797.0,291.25,19.0,block,absolute,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""6X3nLKwJgOY7mUdbaeps0w"")/div[3]",a,,"a-link-normal,see-more,truncate-1line","id(""6X3nLKwJgOY7mUdbaeps0w"")/div[3]/a[1]",6,Shop fashion,0,351.25,797.0,251.25,19.0,block,static,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""desktop-grid-2"")",script,,,"id(""desktop-grid-2"")/script[1]",4,(function(f){f(P._namespace('gwiAutoInstVisible'));}(function(P) {if(window.GWI){GWI.Card.autoInstVi,0,0.0,0.0,0.0,0.0,none,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""gw-card-layout"")",div,desktop-grid-3,"gw-col,csm-placement-id-STATIC_FALLBACK_desktop-grid-3_PID,STATIC_FALLBACK_desktop-grid-3_CID,celwidget","id(""desktop-grid-3"")",3,".a-cardui.fluid-fat-image-link .a-cardui-body .center-image{height:100%;width:100%}
+.fluid-card{-web",3,632.5,416.0,311.25,420.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""desktop-grid-3"")",style,,,"id(""desktop-grid-3"")/style[1]",4,".a-cardui.fluid-fat-image-link .a-cardui-body .center-image{height:100%;width:100%}
+.fluid-card{-web",0,0.0,0.0,0.0,0.0,none,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""desktop-grid-3"")",div,QEv9X3mmnTduSyb5mVrY8Q,"a-cardui,fluid-fat-image-link,fluid-card","id(""QEv9X3mmnTduSyb5mVrY8Q"")",4,"Do up your home
+ 
+ 
+  
+   
+    
+   
+ 
+ 
+  See more",3,642.5,416.0,291.25,420.0,flex,relative,"rgb(15, 17, 17)","rgb(255, 255, 255)",auto,visible
+,,"id(""QEv9X3mmnTduSyb5mVrY8Q"")",div,,a-cardui-header,"id(""QEv9X3mmnTduSyb5mVrY8Q"")/div[1]",5,Do up your home,1,642.5,436.0,291.25,27.296875,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""QEv9X3mmnTduSyb5mVrY8Q"")/div[1]",h2,,"a-color-base,headline,truncate-2line","id(""QEv9X3mmnTduSyb5mVrY8Q"")/div[1]/h2[1]",6,Do up your home,0,662.5,436.0,251.25,27.296875,flow-root,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""QEv9X3mmnTduSyb5mVrY8Q"")",div,,a-cardui-body,"id(""QEv9X3mmnTduSyb5mVrY8Q"")/div[2]",5,,1,642.5,473.296875,291.25,303.703125,block,relative,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""QEv9X3mmnTduSyb5mVrY8Q"")/div[2]",a,,"a-link-normal,center-image,aok-block,image-window","id(""QEv9X3mmnTduSyb5mVrY8Q"")/div[2]/a[1]",6,,1,662.5,473.296875,251.25,303.703125,block,relative,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""QEv9X3mmnTduSyb5mVrY8Q"")/div[2]/a[1]",div,,"a-section,a-spacing-none,fluid-image-container","id(""QEv9X3mmnTduSyb5mVrY8Q"")/div[2]/a[1]/div[1]",7,,1,662.5,473.296875,251.25,303.703125,block,relative,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""QEv9X3mmnTduSyb5mVrY8Q"")/div[2]/a[1]/div[1]",img,,landscape-image,"id(""QEv9X3mmnTduSyb5mVrY8Q"")/div[2]/a[1]/div[1]/img[1]",8,,0,636.2734375,473.296875,303.703125,303.703125,block,absolute,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""QEv9X3mmnTduSyb5mVrY8Q"")",div,,a-cardui-footer,"id(""QEv9X3mmnTduSyb5mVrY8Q"")/div[3]",5,See more,1,642.5,797.0,291.25,19.0,block,absolute,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""QEv9X3mmnTduSyb5mVrY8Q"")/div[3]",a,,"a-link-normal,see-more,truncate-1line","id(""QEv9X3mmnTduSyb5mVrY8Q"")/div[3]/a[1]",6,See more,0,662.5,797.0,251.25,19.0,block,static,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""desktop-grid-3"")",script,,,"id(""desktop-grid-3"")/script[1]",4,(function(f){f(P._namespace('gwiAutoInstVisible'));}(function(P) {if(window.GWI){GWI.Card.autoInstVi,0,0.0,0.0,0.0,0.0,none,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""gw-card-layout"")",div,desktop-grid-4,"gw-col,csm-placement-id-STATIC_FALLBACK_desktop-grid-4_PID,STATIC_FALLBACK_desktop-grid-4_CID,celwidget","id(""desktop-grid-4"")",3,".a-cardui.fluid-fat-image-link .a-cardui-body .center-image{height:100%;width:100%}
+.fluid-card{-web",3,943.75,416.0,311.25,420.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""desktop-grid-4"")",style,,,"id(""desktop-grid-4"")/style[1]",4,".a-cardui.fluid-fat-image-link .a-cardui-body .center-image{height:100%;width:100%}
+.fluid-card{-web",0,0.0,0.0,0.0,0.0,none,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""desktop-grid-4"")",div,8LVkeikuO0jt_08VqyamLA,"a-cardui,fluid-fat-image-link,fluid-card","id(""8LVkeikuO0jt_08VqyamLA"")",4,"Smart gadgets by Amazon
+ 
+ 
+  
+   
+    
+   
+ 
+ 
+  Shop now",3,953.75,416.0,291.25,420.0,flex,relative,"rgb(15, 17, 17)","rgb(255, 255, 255)",auto,visible
+,,"id(""8LVkeikuO0jt_08VqyamLA"")",div,,a-cardui-header,"id(""8LVkeikuO0jt_08VqyamLA"")/div[1]",5,Smart gadgets by Amazon,1,953.75,436.0,291.25,54.59375,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""8LVkeikuO0jt_08VqyamLA"")/div[1]",h2,,"a-color-base,headline,truncate-2line","id(""8LVkeikuO0jt_08VqyamLA"")/div[1]/h2[1]",6,Smart gadgets by Amazon,0,973.75,436.0,251.25,54.59375,flow-root,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""8LVkeikuO0jt_08VqyamLA"")",div,,a-cardui-body,"id(""8LVkeikuO0jt_08VqyamLA"")/div[2]",5,,1,953.75,500.59375,291.25,276.40625,block,relative,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""8LVkeikuO0jt_08VqyamLA"")/div[2]",a,,"a-link-normal,center-image,aok-block,image-window","id(""8LVkeikuO0jt_08VqyamLA"")/div[2]/a[1]",6,,1,973.75,500.59375,251.25,276.40625,block,relative,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""8LVkeikuO0jt_08VqyamLA"")/div[2]/a[1]",div,,"a-section,a-spacing-none,fluid-image-container","id(""8LVkeikuO0jt_08VqyamLA"")/div[2]/a[1]/div[1]",7,,1,973.75,500.59375,251.25,276.40625,block,relative,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""8LVkeikuO0jt_08VqyamLA"")/div[2]/a[1]/div[1]",img,,landscape-image,"id(""8LVkeikuO0jt_08VqyamLA"")/div[2]/a[1]/div[1]/img[1]",8,,0,961.171875,500.59375,276.40625,276.40625,block,absolute,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""8LVkeikuO0jt_08VqyamLA"")",div,,a-cardui-footer,"id(""8LVkeikuO0jt_08VqyamLA"")/div[3]",5,Shop now,1,953.75,797.0,291.25,19.0,block,absolute,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""8LVkeikuO0jt_08VqyamLA"")/div[3]",a,,"a-link-normal,see-more,truncate-1line","id(""8LVkeikuO0jt_08VqyamLA"")/div[3]/a[1]",6,Shop now,0,973.75,797.0,251.25,19.0,block,static,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""desktop-grid-4"")",script,,,"id(""desktop-grid-4"")/script[1]",4,(function(f){f(P._namespace('gwiAutoInstVisible'));}(function(P) {if(window.GWI){GWI.Card.autoInstVi,0,0.0,0.0,0.0,0.0,none,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""gw-card-layout"")",hr,,card-flow-row-break,"id(""gw-card-layout"")/hr[1]",3,,0,10.0,836.0,1245.0,20.0,block,static,"rgb(128, 128, 128)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""gw-card-layout"")",script,,,"id(""gw-card-layout"")/script[2]",3,"P.when('GwGridLogic').execute('GridInit', function(g) {
+    window.uet && uet('cf', 'gwGridInit', {w",0,0.0,0.0,0.0,0.0,none,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""gw-layout"")",div,gw-content-grid,"a-section,a-spacing-large","id(""gw-content-grid"")",2,"(function ($Nav) {
+""use strict"";
+
+if (typeof $Nav === 'undefined' || $Nav === null || typeof $Nav.wh",1,10.0,876.0,1245.0,440.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""gw-content-grid"")",div,main-content,"a-section,a-spacing-none,gw-card-layout","id(""main-content"")",3,"(function ($Nav) {
+""use strict"";
+
+if (typeof $Nav === 'undefined' || $Nav === null || typeof $Nav.wh",10,10.0,876.0,1245.0,440.0,flex,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""main-content"")",script,,,"id(""main-content"")/script[1]",4,"(function ($Nav) {
+""use strict"";
+
+if (typeof $Nav === 'undefined' || $Nav === null || typeof $Nav.wh",0,0.0,0.0,0.0,0.0,none,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""main-content"")",script,,,"id(""main-content"")/script[2]",4,"window.$Nav && $Nav.when(""data"").run(function (data) {
+    data({
+      ""accountListContent"": { ""htm",0,0.0,0.0,0.0,0.0,none,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""main-content"")",script,,,"id(""main-content"")/script[3]",4,"window.$Nav && $Nav.declare('config.flyoutURL', null);
+  window.$Nav && $Nav.declare('btf.lite');
+  ",0,0.0,0.0,0.0,0.0,none,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""main-content"")",div,desktop-btf-grid-1,"gw-col,csm-placement-id-STATIC_FALLBACK_desktop-btf-grid-1_PID,STATIC_FALLBACK_desktop-btf-grid-1_CID,celwidget","id(""desktop-btf-grid-1"")",4,".a-cardui.fluid-fat-image-link .a-cardui-body .center-image{height:100%;width:100%}
+.fluid-card{-web",3,10.0,876.0,311.25,420.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""desktop-btf-grid-1"")",style,,,"id(""desktop-btf-grid-1"")/style[1]",5,".a-cardui.fluid-fat-image-link .a-cardui-body .center-image{height:100%;width:100%}
+.fluid-card{-web",0,0.0,0.0,0.0,0.0,none,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""desktop-btf-grid-1"")",div,zPD4xwrCLiu51Hz6qyMjLA,"a-cardui,fluid-fat-image-link,fluid-card","id(""zPD4xwrCLiu51Hz6qyMjLA"")",5,"Value bazaar
+ 
+ 
+  
+   
+    
+   
+ 
+ 
+  Shop daily essentials",3,20.0,876.0,291.25,420.0,flex,relative,"rgb(15, 17, 17)","rgb(255, 255, 255)",auto,visible
+,,"id(""zPD4xwrCLiu51Hz6qyMjLA"")",div,,a-cardui-header,"id(""zPD4xwrCLiu51Hz6qyMjLA"")/div[1]",6,Value bazaar,1,20.0,896.0,291.25,27.296875,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""zPD4xwrCLiu51Hz6qyMjLA"")/div[1]",h2,,"a-color-base,headline,truncate-2line","id(""zPD4xwrCLiu51Hz6qyMjLA"")/div[1]/h2[1]",7,Value bazaar,0,40.0,896.0,251.25,27.296875,flow-root,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""zPD4xwrCLiu51Hz6qyMjLA"")",div,,a-cardui-body,"id(""zPD4xwrCLiu51Hz6qyMjLA"")/div[2]",6,,1,20.0,933.296875,291.25,303.703125,block,relative,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""zPD4xwrCLiu51Hz6qyMjLA"")/div[2]",a,,"a-link-normal,center-image,aok-block,image-window","id(""zPD4xwrCLiu51Hz6qyMjLA"")/div[2]/a[1]",7,,1,40.0,933.296875,251.25,303.703125,block,relative,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""zPD4xwrCLiu51Hz6qyMjLA"")/div[2]/a[1]",div,,"a-section,a-spacing-none,fluid-image-container","id(""zPD4xwrCLiu51Hz6qyMjLA"")/div[2]/a[1]/div[1]",8,,1,40.0,933.296875,251.25,303.703125,block,relative,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""zPD4xwrCLiu51Hz6qyMjLA"")/div[2]/a[1]/div[1]",img,,landscape-image,"id(""zPD4xwrCLiu51Hz6qyMjLA"")/div[2]/a[1]/div[1]/img[1]",9,,0,13.7734375,933.296875,303.703125,303.703125,block,absolute,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""zPD4xwrCLiu51Hz6qyMjLA"")",div,,a-cardui-footer,"id(""zPD4xwrCLiu51Hz6qyMjLA"")/div[3]",6,Shop daily essentials,1,20.0,1257.0,291.25,19.0,block,absolute,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""zPD4xwrCLiu51Hz6qyMjLA"")/div[3]",a,,"a-link-normal,see-more,truncate-1line","id(""zPD4xwrCLiu51Hz6qyMjLA"")/div[3]/a[1]",7,Shop daily essentials,0,40.0,1257.0,251.25,19.0,block,static,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""desktop-btf-grid-1"")",script,,,"id(""desktop-btf-grid-1"")/script[1]",5,(function(f){f(P._namespace('gwiAutoInstVisible'));}(function(P) {if(window.GWI){GWI.Card.autoInstVi,0,0.0,0.0,0.0,0.0,none,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""main-content"")",div,desktop-btf-grid-2,"gw-col,csm-placement-id-STATIC_FALLBACK_desktop-btf-grid-2_PID,STATIC_FALLBACK_desktop-btf-grid-2_CID,celwidget","id(""desktop-btf-grid-2"")",4,.fluid-card{-webkit-box-orient:vertical;-webkit-box-direction:normal;display:-webkit-box;display:-ms,3,321.25,876.0,311.25,420.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""desktop-btf-grid-2"")",style,,,"id(""desktop-btf-grid-2"")/style[1]",5,.fluid-card{-webkit-box-orient:vertical;-webkit-box-direction:normal;display:-webkit-box;display:-ms,0,0.0,0.0,0.0,0.0,none,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""desktop-btf-grid-2"")",div,YMii-_i2JevwbxxxLELF9w,"a-cardui,fluid-quad-card,fluid-card,fluid-quad-image-label","id(""YMii-_i2JevwbxxxLELF9w"")",5,"Work from home essentials
+ 
+ 
+  
+   
+    
+     
+      
+     
+     
+      Routers
+     
+   
+   
+    
+",3,331.25,876.0,291.25,420.0,flex,relative,"rgb(15, 17, 17)","rgb(255, 255, 255)",auto,visible
+,,"id(""YMii-_i2JevwbxxxLELF9w"")",div,,a-cardui-header,"id(""YMii-_i2JevwbxxxLELF9w"")/div[1]",6,Work from home essentials,1,331.25,896.0,291.25,54.59375,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""YMii-_i2JevwbxxxLELF9w"")/div[1]",h2,,"a-color-base,headline,truncate-2line","id(""YMii-_i2JevwbxxxLELF9w"")/div[1]/h2[1]",7,Work from home essentials,0,351.25,896.0,251.25,54.59375,flow-root,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""YMii-_i2JevwbxxxLELF9w"")",div,,a-cardui-body,"id(""YMii-_i2JevwbxxxLELF9w"")/div[2]",6,"Routers
+     
+   
+   
+    
+     
+      
+     
+     
+      Laptops
+     
+   
+  
+  
+   
+    
+     
+   ",2,331.25,960.59375,291.25,276.40625,block,relative,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""YMii-_i2JevwbxxxLELF9w"")/div[2]",div,,"a-section,a-spacing-small,grid-row-1","id(""YMii-_i2JevwbxxxLELF9w"")/div[2]/div[1]",7,"Routers
+     
+   
+   
+    
+     
+      
+     
+     
+      Laptops",2,351.25,960.59375,251.25,138.203125,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""YMii-_i2JevwbxxxLELF9w"")/div[2]/div[1]",div,,"a-section,a-spacing-none,quadrant-container,quadrant-container-0","id(""YMii-_i2JevwbxxxLELF9w"")/div[2]/div[1]/div[1]",8,Routers,1,351.25,960.59375,119.34375,138.203125,inline-block,relative,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""YMii-_i2JevwbxxxLELF9w"")/div[2]/div[1]/div[1]",a,,"a-link-normal,image-redirect,aok-block,image-window","id(""YMii-_i2JevwbxxxLELF9w"")/div[2]/div[1]/div[1]/a[1]",9,Routers,2,351.25,960.59375,119.34375,102.203125,block,relative,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""YMii-_i2JevwbxxxLELF9w"")/div[2]/div[1]/div[1]/a[1]",div,,"a-section,a-spacing-none,fluid-image-container","id(""YMii-_i2JevwbxxxLELF9w"")/div[2]/div[1]/div[1]/a[1]/div[1]",10,,1,351.25,960.59375,119.34375,102.203125,block,relative,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""YMii-_i2JevwbxxxLELF9w"")/div[2]/div[1]/div[1]/a[1]/div[1]",img,,landscape-image,"id(""YMii-_i2JevwbxxxLELF9w"")/div[2]/div[1]/div[1]/a[1]/div[1]/img[1]",11,,0,328.984375,960.59375,163.875,102.203125,block,absolute,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""YMii-_i2JevwbxxxLELF9w"")/div[2]/div[1]/div[1]/a[1]",div,,"a-section,a-spacing-none,image-label,aok-inline-block,aok-align-center","id(""YMii-_i2JevwbxxxLELF9w"")/div[2]/div[1]/div[1]/a[1]/div[2]",10,Routers,1,351.25,1062.796875,42.0234375,36.0,inline-block,static,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""YMii-_i2JevwbxxxLELF9w"")/div[2]/div[1]/div[1]/a[1]/div[2]",span,,"a-size-small,a-color-base,truncate-2line","id(""YMii-_i2JevwbxxxLELF9w"")/div[2]/div[1]/div[1]/a[1]/div[2]/span[1]",11,Routers,0,351.25,1062.796875,42.0234375,18.0,flow-root,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""YMii-_i2JevwbxxxLELF9w"")/div[2]/div[1]",div,,"a-section,a-spacing-none,quadrant-container,quadrant-container-1","id(""YMii-_i2JevwbxxxLELF9w"")/div[2]/div[1]/div[2]",8,Laptops,1,483.15625,960.59375,119.34375,138.203125,block,relative,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""YMii-_i2JevwbxxxLELF9w"")/div[2]/div[1]/div[2]",a,,"a-link-normal,image-redirect,aok-block,image-window","id(""YMii-_i2JevwbxxxLELF9w"")/div[2]/div[1]/div[2]/a[1]",9,Laptops,2,483.15625,960.59375,119.34375,102.203125,block,relative,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""YMii-_i2JevwbxxxLELF9w"")/div[2]/div[1]/div[2]/a[1]",div,,"a-section,a-spacing-none,fluid-image-container","id(""YMii-_i2JevwbxxxLELF9w"")/div[2]/div[1]/div[2]/a[1]/div[1]",10,,1,483.15625,960.59375,119.34375,102.203125,block,relative,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""YMii-_i2JevwbxxxLELF9w"")/div[2]/div[1]/div[2]/a[1]/div[1]",img,,landscape-image,"id(""YMii-_i2JevwbxxxLELF9w"")/div[2]/div[1]/div[2]/a[1]/div[1]/img[1]",11,,0,460.890625,960.59375,163.875,102.203125,block,absolute,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""YMii-_i2JevwbxxxLELF9w"")/div[2]/div[1]/div[2]/a[1]",div,,"a-section,a-spacing-none,image-label,aok-inline-block,aok-align-center","id(""YMii-_i2JevwbxxxLELF9w"")/div[2]/div[1]/div[2]/a[1]/div[2]",10,Laptops,1,483.15625,1062.796875,42.703125,36.0,inline-block,static,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""YMii-_i2JevwbxxxLELF9w"")/div[2]/div[1]/div[2]/a[1]/div[2]",span,,"a-size-small,a-color-base,truncate-2line","id(""YMii-_i2JevwbxxxLELF9w"")/div[2]/div[1]/div[2]/a[1]/div[2]/span[1]",11,Laptops,0,483.15625,1062.796875,42.703125,18.0,flow-root,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""YMii-_i2JevwbxxxLELF9w"")/div[2]",div,,"a-section,grid-row-2","id(""YMii-_i2JevwbxxxLELF9w"")/div[2]/div[2]",7,"Keyboards, mice & more
+     
+   
+   
+    
+     
+      
+     
+     
+      Headphones",2,351.25,1106.796875,251.25,138.203125,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""YMii-_i2JevwbxxxLELF9w"")/div[2]/div[2]",div,,"a-section,a-spacing-none,quadrant-container,quadrant-container-0","id(""YMii-_i2JevwbxxxLELF9w"")/div[2]/div[2]/div[1]",8,"Keyboards, mice & more",1,351.25,1106.796875,119.34375,138.203125,inline-block,relative,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""YMii-_i2JevwbxxxLELF9w"")/div[2]/div[2]/div[1]",a,,"a-link-normal,image-redirect,aok-block,image-window","id(""YMii-_i2JevwbxxxLELF9w"")/div[2]/div[2]/div[1]/a[1]",9,"Keyboards, mice & more",2,351.25,1106.796875,119.34375,102.203125,block,relative,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""YMii-_i2JevwbxxxLELF9w"")/div[2]/div[2]/div[1]/a[1]",div,,"a-section,a-spacing-none,fluid-image-container","id(""YMii-_i2JevwbxxxLELF9w"")/div[2]/div[2]/div[1]/a[1]/div[1]",10,,1,351.25,1106.796875,119.34375,102.203125,block,relative,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""YMii-_i2JevwbxxxLELF9w"")/div[2]/div[2]/div[1]/a[1]/div[1]",img,,landscape-image,"id(""YMii-_i2JevwbxxxLELF9w"")/div[2]/div[2]/div[1]/a[1]/div[1]/img[1]",11,,0,328.984375,1106.796875,163.875,102.203125,block,absolute,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""YMii-_i2JevwbxxxLELF9w"")/div[2]/div[2]/div[1]/a[1]",div,,"a-section,a-spacing-none,image-label,aok-inline-block,aok-align-center","id(""YMii-_i2JevwbxxxLELF9w"")/div[2]/div[2]/div[1]/a[1]/div[2]",10,"Keyboards, mice & more",1,351.25,1209.0,119.34375,36.0,inline-block,static,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""YMii-_i2JevwbxxxLELF9w"")/div[2]/div[2]/div[1]/a[1]/div[2]",span,,"a-size-small,a-color-base,truncate-2line","id(""YMii-_i2JevwbxxxLELF9w"")/div[2]/div[2]/div[1]/a[1]/div[2]/span[1]",11,"Keyboards, mice & more",0,351.25,1209.0,119.34375,36.0,flow-root,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""YMii-_i2JevwbxxxLELF9w"")/div[2]/div[2]",div,,"a-section,a-spacing-none,quadrant-container,quadrant-container-1","id(""YMii-_i2JevwbxxxLELF9w"")/div[2]/div[2]/div[2]",8,Headphones,1,483.15625,1106.796875,119.34375,138.203125,block,relative,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""YMii-_i2JevwbxxxLELF9w"")/div[2]/div[2]/div[2]",a,,"a-link-normal,image-redirect,aok-block,image-window","id(""YMii-_i2JevwbxxxLELF9w"")/div[2]/div[2]/div[2]/a[1]",9,Headphones,2,483.15625,1106.796875,119.34375,102.203125,block,relative,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""YMii-_i2JevwbxxxLELF9w"")/div[2]/div[2]/div[2]/a[1]",div,,"a-section,a-spacing-none,fluid-image-container","id(""YMii-_i2JevwbxxxLELF9w"")/div[2]/div[2]/div[2]/a[1]/div[1]",10,,1,483.15625,1106.796875,119.34375,102.203125,block,relative,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""YMii-_i2JevwbxxxLELF9w"")/div[2]/div[2]/div[2]/a[1]/div[1]",img,,landscape-image,"id(""YMii-_i2JevwbxxxLELF9w"")/div[2]/div[2]/div[2]/a[1]/div[1]/img[1]",11,,0,460.890625,1106.796875,163.875,102.203125,block,absolute,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""YMii-_i2JevwbxxxLELF9w"")/div[2]/div[2]/div[2]/a[1]",div,,"a-section,a-spacing-none,image-label,aok-inline-block,aok-align-center","id(""YMii-_i2JevwbxxxLELF9w"")/div[2]/div[2]/div[2]/a[1]/div[2]",10,Headphones,1,483.15625,1209.0,68.0625,36.0,inline-block,static,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""YMii-_i2JevwbxxxLELF9w"")/div[2]/div[2]/div[2]/a[1]/div[2]",span,,"a-size-small,a-color-base,truncate-2line","id(""YMii-_i2JevwbxxxLELF9w"")/div[2]/div[2]/div[2]/a[1]/div[2]/span[1]",11,Headphones,0,483.15625,1209.0,68.0625,18.0,flow-root,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""YMii-_i2JevwbxxxLELF9w"")",div,,a-cardui-footer,"id(""YMii-_i2JevwbxxxLELF9w"")/div[3]",6,See more,1,331.25,1257.0,291.25,19.0,block,absolute,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""YMii-_i2JevwbxxxLELF9w"")/div[3]",a,,"a-link-normal,see-more,truncate-1line","id(""YMii-_i2JevwbxxxLELF9w"")/div[3]/a[1]",7,See more,0,351.25,1257.0,251.25,19.0,block,static,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""desktop-btf-grid-2"")",script,,,"id(""desktop-btf-grid-2"")/script[1]",5,(function(f){f(P._namespace('gwiAutoInstVisible'));}(function(P) {if(window.GWI){GWI.Card.autoInstVi,0,0.0,0.0,0.0,0.0,none,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""main-content"")",div,desktop-btf-grid-3,"gw-col,csm-placement-id-STATIC_FALLBACK_desktop-btf-grid-3_PID,STATIC_FALLBACK_desktop-btf-grid-3_CID,celwidget","id(""desktop-btf-grid-3"")",4,.fluid-card{-webkit-box-orient:vertical;-webkit-box-direction:normal;display:-webkit-box;display:-ms,3,632.5,876.0,311.25,420.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""desktop-btf-grid-3"")",style,,,"id(""desktop-btf-grid-3"")/style[1]",5,.fluid-card{-webkit-box-orient:vertical;-webkit-box-direction:normal;display:-webkit-box;display:-ms,0,0.0,0.0,0.0,0.0,none,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""desktop-btf-grid-3"")",div,xDtEDpM_UsLdQxNMl-Ir8g,"a-cardui,fluid-quad-card,fluid-card,fluid-quad-image-label","id(""xDtEDpM_UsLdQxNMl-Ir8g"")",5,"Revamp your home in style
+ 
+ 
+  
+   
+    
+     
+      
+     
+     
+      Bedsheets, curtains & more
+",3,642.5,876.0,291.25,420.0,flex,relative,"rgb(15, 17, 17)","rgb(255, 255, 255)",auto,visible
+,,"id(""xDtEDpM_UsLdQxNMl-Ir8g"")",div,,a-cardui-header,"id(""xDtEDpM_UsLdQxNMl-Ir8g"")/div[1]",6,Revamp your home in style,1,642.5,896.0,291.25,54.59375,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""xDtEDpM_UsLdQxNMl-Ir8g"")/div[1]",h2,,"a-color-base,headline,truncate-2line","id(""xDtEDpM_UsLdQxNMl-Ir8g"")/div[1]/h2[1]",7,Revamp your home in style,0,662.5,896.0,251.25,54.59375,flow-root,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""xDtEDpM_UsLdQxNMl-Ir8g"")",div,,a-cardui-body,"id(""xDtEDpM_UsLdQxNMl-Ir8g"")/div[2]",6,"Bedsheets, curtains & more
+     
+   
+   
+    
+     
+      
+     
+     
+      Home decoration
+     
+ ",2,642.5,960.59375,291.25,276.40625,block,relative,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""xDtEDpM_UsLdQxNMl-Ir8g"")/div[2]",div,,"a-section,a-spacing-small,grid-row-1","id(""xDtEDpM_UsLdQxNMl-Ir8g"")/div[2]/div[1]",7,"Bedsheets, curtains & more
+     
+   
+   
+    
+     
+      
+     
+     
+      Home decoration",2,662.5,960.59375,251.25,138.203125,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""xDtEDpM_UsLdQxNMl-Ir8g"")/div[2]/div[1]",div,,"a-section,a-spacing-none,quadrant-container,quadrant-container-0","id(""xDtEDpM_UsLdQxNMl-Ir8g"")/div[2]/div[1]/div[1]",8,"Bedsheets, curtains & more",1,662.5,960.59375,119.34375,138.203125,inline-block,relative,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""xDtEDpM_UsLdQxNMl-Ir8g"")/div[2]/div[1]/div[1]",a,,"a-link-normal,image-redirect,aok-block,image-window","id(""xDtEDpM_UsLdQxNMl-Ir8g"")/div[2]/div[1]/div[1]/a[1]",9,"Bedsheets, curtains & more",2,662.5,960.59375,119.34375,102.203125,block,relative,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""xDtEDpM_UsLdQxNMl-Ir8g"")/div[2]/div[1]/div[1]/a[1]",div,,"a-section,a-spacing-none,fluid-image-container","id(""xDtEDpM_UsLdQxNMl-Ir8g"")/div[2]/div[1]/div[1]/a[1]/div[1]",10,,1,662.5,960.59375,119.34375,102.203125,block,relative,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""xDtEDpM_UsLdQxNMl-Ir8g"")/div[2]/div[1]/div[1]/a[1]/div[1]",img,,landscape-image,"id(""xDtEDpM_UsLdQxNMl-Ir8g"")/div[2]/div[1]/div[1]/a[1]/div[1]/img[1]",11,,0,722.171875,960.59375,0.0,102.203125,block,absolute,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""xDtEDpM_UsLdQxNMl-Ir8g"")/div[2]/div[1]/div[1]/a[1]",div,,"a-section,a-spacing-none,image-label,aok-inline-block,aok-align-center","id(""xDtEDpM_UsLdQxNMl-Ir8g"")/div[2]/div[1]/div[1]/a[1]/div[2]",10,"Bedsheets, curtains & more",1,662.5,1062.796875,119.34375,36.0,inline-block,static,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""xDtEDpM_UsLdQxNMl-Ir8g"")/div[2]/div[1]/div[1]/a[1]/div[2]",span,,"a-size-small,a-color-base,truncate-2line","id(""xDtEDpM_UsLdQxNMl-Ir8g"")/div[2]/div[1]/div[1]/a[1]/div[2]/span[1]",11,"Bedsheets, curtains & more",0,662.5,1062.796875,119.34375,36.0,flow-root,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""xDtEDpM_UsLdQxNMl-Ir8g"")/div[2]/div[1]",div,,"a-section,a-spacing-none,quadrant-container,quadrant-container-1","id(""xDtEDpM_UsLdQxNMl-Ir8g"")/div[2]/div[1]/div[2]",8,Home decoration,1,794.40625,960.59375,119.34375,138.203125,block,relative,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""xDtEDpM_UsLdQxNMl-Ir8g"")/div[2]/div[1]/div[2]",a,,"a-link-normal,image-redirect,aok-block,image-window","id(""xDtEDpM_UsLdQxNMl-Ir8g"")/div[2]/div[1]/div[2]/a[1]",9,Home decoration,2,794.40625,960.59375,119.34375,102.203125,block,relative,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""xDtEDpM_UsLdQxNMl-Ir8g"")/div[2]/div[1]/div[2]/a[1]",div,,"a-section,a-spacing-none,fluid-image-container","id(""xDtEDpM_UsLdQxNMl-Ir8g"")/div[2]/div[1]/div[2]/a[1]/div[1]",10,,1,794.40625,960.59375,119.34375,102.203125,block,relative,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""xDtEDpM_UsLdQxNMl-Ir8g"")/div[2]/div[1]/div[2]/a[1]/div[1]",img,,landscape-image,"id(""xDtEDpM_UsLdQxNMl-Ir8g"")/div[2]/div[1]/div[2]/a[1]/div[1]/img[1]",11,,0,854.078125,960.59375,0.0,102.203125,block,absolute,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""xDtEDpM_UsLdQxNMl-Ir8g"")/div[2]/div[1]/div[2]/a[1]",div,,"a-section,a-spacing-none,image-label,aok-inline-block,aok-align-center","id(""xDtEDpM_UsLdQxNMl-Ir8g"")/div[2]/div[1]/div[2]/a[1]/div[2]",10,Home decoration,1,794.40625,1062.796875,91.3828125,36.0,inline-block,static,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""xDtEDpM_UsLdQxNMl-Ir8g"")/div[2]/div[1]/div[2]/a[1]/div[2]",span,,"a-size-small,a-color-base,truncate-2line","id(""xDtEDpM_UsLdQxNMl-Ir8g"")/div[2]/div[1]/div[2]/a[1]/div[2]/span[1]",11,Home decoration,0,794.40625,1062.796875,91.3828125,18.0,flow-root,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""xDtEDpM_UsLdQxNMl-Ir8g"")/div[2]",div,,"a-section,grid-row-2","id(""xDtEDpM_UsLdQxNMl-Ir8g"")/div[2]/div[2]",7,"Home storage
+     
+   
+   
+    
+     
+      
+     
+     
+      Lighting solutions",2,662.5,1106.796875,251.25,138.203125,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""xDtEDpM_UsLdQxNMl-Ir8g"")/div[2]/div[2]",div,,"a-section,a-spacing-none,quadrant-container,quadrant-container-0","id(""xDtEDpM_UsLdQxNMl-Ir8g"")/div[2]/div[2]/div[1]",8,Home storage,1,662.5,1106.796875,119.34375,138.203125,inline-block,relative,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""xDtEDpM_UsLdQxNMl-Ir8g"")/div[2]/div[2]/div[1]",a,,"a-link-normal,image-redirect,aok-block,image-window","id(""xDtEDpM_UsLdQxNMl-Ir8g"")/div[2]/div[2]/div[1]/a[1]",9,Home storage,2,662.5,1106.796875,119.34375,102.203125,block,relative,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""xDtEDpM_UsLdQxNMl-Ir8g"")/div[2]/div[2]/div[1]/a[1]",div,,"a-section,a-spacing-none,fluid-image-container","id(""xDtEDpM_UsLdQxNMl-Ir8g"")/div[2]/div[2]/div[1]/a[1]/div[1]",10,,1,662.5,1106.796875,119.34375,102.203125,block,relative,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""xDtEDpM_UsLdQxNMl-Ir8g"")/div[2]/div[2]/div[1]/a[1]/div[1]",img,,landscape-image,"id(""xDtEDpM_UsLdQxNMl-Ir8g"")/div[2]/div[2]/div[1]/a[1]/div[1]/img[1]",11,,0,640.234375,1106.796875,163.875,102.203125,block,absolute,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""xDtEDpM_UsLdQxNMl-Ir8g"")/div[2]/div[2]/div[1]/a[1]",div,,"a-section,a-spacing-none,image-label,aok-inline-block,aok-align-center","id(""xDtEDpM_UsLdQxNMl-Ir8g"")/div[2]/div[2]/div[1]/a[1]/div[2]",10,Home storage,1,662.5,1209.0,75.375,36.0,inline-block,static,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""xDtEDpM_UsLdQxNMl-Ir8g"")/div[2]/div[2]/div[1]/a[1]/div[2]",span,,"a-size-small,a-color-base,truncate-2line","id(""xDtEDpM_UsLdQxNMl-Ir8g"")/div[2]/div[2]/div[1]/a[1]/div[2]/span[1]",11,Home storage,0,662.5,1209.0,75.375,18.0,flow-root,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""xDtEDpM_UsLdQxNMl-Ir8g"")/div[2]/div[2]",div,,"a-section,a-spacing-none,quadrant-container,quadrant-container-1","id(""xDtEDpM_UsLdQxNMl-Ir8g"")/div[2]/div[2]/div[2]",8,Lighting solutions,1,794.40625,1106.796875,119.34375,138.203125,block,relative,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""xDtEDpM_UsLdQxNMl-Ir8g"")/div[2]/div[2]/div[2]",a,,"a-link-normal,image-redirect,aok-block,image-window","id(""xDtEDpM_UsLdQxNMl-Ir8g"")/div[2]/div[2]/div[2]/a[1]",9,Lighting solutions,2,794.40625,1106.796875,119.34375,102.203125,block,relative,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""xDtEDpM_UsLdQxNMl-Ir8g"")/div[2]/div[2]/div[2]/a[1]",div,,"a-section,a-spacing-none,fluid-image-container","id(""xDtEDpM_UsLdQxNMl-Ir8g"")/div[2]/div[2]/div[2]/a[1]/div[1]",10,,1,794.40625,1106.796875,119.34375,102.203125,block,relative,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""xDtEDpM_UsLdQxNMl-Ir8g"")/div[2]/div[2]/div[2]/a[1]/div[1]",img,,landscape-image,"id(""xDtEDpM_UsLdQxNMl-Ir8g"")/div[2]/div[2]/div[2]/a[1]/div[1]/img[1]",11,,0,772.140625,1106.796875,163.875,102.203125,block,absolute,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""xDtEDpM_UsLdQxNMl-Ir8g"")/div[2]/div[2]/div[2]/a[1]",div,,"a-section,a-spacing-none,image-label,aok-inline-block,aok-align-center","id(""xDtEDpM_UsLdQxNMl-Ir8g"")/div[2]/div[2]/div[2]/a[1]/div[2]",10,Lighting solutions,1,794.40625,1209.0,92.734375,36.0,inline-block,static,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""xDtEDpM_UsLdQxNMl-Ir8g"")/div[2]/div[2]/div[2]/a[1]/div[2]",span,,"a-size-small,a-color-base,truncate-2line","id(""xDtEDpM_UsLdQxNMl-Ir8g"")/div[2]/div[2]/div[2]/a[1]/div[2]/span[1]",11,Lighting solutions,0,794.40625,1209.0,92.734375,18.0,flow-root,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""xDtEDpM_UsLdQxNMl-Ir8g"")",div,,a-cardui-footer,"id(""xDtEDpM_UsLdQxNMl-Ir8g"")/div[3]",6,Explore all,1,642.5,1257.0,291.25,19.0,block,absolute,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""xDtEDpM_UsLdQxNMl-Ir8g"")/div[3]",a,,"a-link-normal,see-more,truncate-1line","id(""xDtEDpM_UsLdQxNMl-Ir8g"")/div[3]/a[1]",7,Explore all,0,662.5,1257.0,251.25,19.0,block,static,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""desktop-btf-grid-3"")",script,,,"id(""desktop-btf-grid-3"")/script[1]",5,(function(f){f(P._namespace('gwiAutoInstVisible'));}(function(P) {if(window.GWI){GWI.Card.autoInstVi,0,0.0,0.0,0.0,0.0,none,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""main-content"")",hr,,card-flow-row-break,"id(""main-content"")/hr[1]",4,,0,0.0,0.0,0.0,0.0,none,static,"rgb(128, 128, 128)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""main-content"")",div,desktop-btf-grid-4,"gw-col,csm-placement-id-STATIC_FALLBACK_desktop-btf-grid-4_PID,STATIC_FALLBACK_desktop-btf-grid-4_CID,celwidget","id(""desktop-btf-grid-4"")",4,".a-cardui.fluid-fat-image-link .a-cardui-body .center-image{height:100%;width:100%}
+.fluid-card{-web",3,943.75,876.0,311.25,420.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""desktop-btf-grid-4"")",style,,,"id(""desktop-btf-grid-4"")/style[1]",5,".a-cardui.fluid-fat-image-link .a-cardui-body .center-image{height:100%;width:100%}
+.fluid-card{-web",0,0.0,0.0,0.0,0.0,none,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""desktop-btf-grid-4"")",div,1xp4AEmqjoLpKihlY3LkoQ,"a-cardui,fluid-fat-image-link,fluid-card","id(""1xp4AEmqjoLpKihlY3LkoQ"")",5,"Innovations from Emerging Indian Brands
+ 
+ 
+  
+   
+    
+   
+ 
+ 
+  Explore more startups",3,953.75,876.0,291.25,420.0,flex,relative,"rgb(15, 17, 17)","rgb(255, 255, 255)",auto,visible
+,,"id(""1xp4AEmqjoLpKihlY3LkoQ"")",div,,a-cardui-header,"id(""1xp4AEmqjoLpKihlY3LkoQ"")/div[1]",6,Innovations from Emerging Indian Brands,1,953.75,896.0,291.25,54.59375,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""1xp4AEmqjoLpKihlY3LkoQ"")/div[1]",h2,,"a-color-base,headline,truncate-2line","id(""1xp4AEmqjoLpKihlY3LkoQ"")/div[1]/h2[1]",7,Innovations from Emerging Indian Brands,0,973.75,896.0,251.25,54.59375,flow-root,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""1xp4AEmqjoLpKihlY3LkoQ"")",div,,a-cardui-body,"id(""1xp4AEmqjoLpKihlY3LkoQ"")/div[2]",6,,1,953.75,960.59375,291.25,276.40625,block,relative,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""1xp4AEmqjoLpKihlY3LkoQ"")/div[2]",a,,"a-link-normal,center-image,aok-block,image-window","id(""1xp4AEmqjoLpKihlY3LkoQ"")/div[2]/a[1]",7,,1,973.75,960.59375,251.25,276.40625,block,relative,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""1xp4AEmqjoLpKihlY3LkoQ"")/div[2]/a[1]",div,,"a-section,a-spacing-none,fluid-image-container","id(""1xp4AEmqjoLpKihlY3LkoQ"")/div[2]/a[1]/div[1]",8,,1,973.75,960.59375,251.25,276.40625,block,relative,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""1xp4AEmqjoLpKihlY3LkoQ"")/div[2]/a[1]/div[1]",img,,landscape-image,"id(""1xp4AEmqjoLpKihlY3LkoQ"")/div[2]/a[1]/div[1]/img[1]",9,,0,927.078125,960.59375,344.59375,276.40625,block,absolute,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""1xp4AEmqjoLpKihlY3LkoQ"")",div,,a-cardui-footer,"id(""1xp4AEmqjoLpKihlY3LkoQ"")/div[3]",6,Explore more startups,1,953.75,1257.0,291.25,19.0,block,absolute,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""1xp4AEmqjoLpKihlY3LkoQ"")/div[3]",a,,"a-link-normal,see-more,truncate-1line","id(""1xp4AEmqjoLpKihlY3LkoQ"")/div[3]/a[1]",7,Explore more startups,0,973.75,1257.0,251.25,19.0,block,static,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""desktop-btf-grid-4"")",script,,,"id(""desktop-btf-grid-4"")/script[1]",5,(function(f){f(P._namespace('gwiAutoInstVisible'));}(function(P) {if(window.GWI){GWI.Card.autoInstVi,0,0.0,0.0,0.0,0.0,none,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""main-content"")",hr,,card-flow-row-break,"id(""main-content"")/hr[2]",4,,0,10.0,1296.0,1245.0,20.0,block,static,"rgb(128, 128, 128)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""main-content"")",script,,,"id(""main-content"")/script[4]",4,"P.when('GwGridLogic').execute('BTFGridInit', function(g) {
+    window.uet && uet('cf', 'gwBTFGridIni",0,0.0,0.0,0.0,0.0,none,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,c0139a1a-d836-49e6-a8e2-7d096f2d6bde,"id(""pageContent"")",div,SponsoredLinksGateway,,"id(""SponsoredLinksGateway"")",1,"function a9_sl_sessionCacheUpdateHandler ($) {
+                var browserWidth = $(window).width();",1,0.0,1340.0,1265.0,0.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""SponsoredLinksGateway"")",script,,,"id(""SponsoredLinksGateway"")/script[1]",2,"function a9_sl_sessionCacheUpdateHandler ($) {
+                var browserWidth = $(window).width();",0,0.0,0.0,0.0,0.0,none,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+4bba5f57-8d4c-4a39-9040-bf11d9b45e79,,,div,,a-section,"id(""a-page"")/div[2]",0,,0,0.0,1340.0,1265.0,0.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+abd4524f-92ca-4d32-8b35-c9306a2c4f37,,,div,rhf,copilot-secure-display,"id(""rhf"")",0,"{ ""rhfHandlerParams"":{""currentPageType"":""Gateway"",""currentSubPageType"":""desktop"",""excludeAsin"":"""",""f",1,0.0,1362.0,1265.0,0.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,abd4524f-92ca-4d32-8b35-c9306a2c4f37,"id(""rhf"")",div,,rhf-frame,"id(""rhf"")/div[1]",1,"{ ""rhfHandlerParams"":{""currentPageType"":""Gateway"",""currentSubPageType"":""desktop"",""excludeAsin"":"""",""f",5,0.0,0.0,0.0,0.0,none,relative,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""rhf"")/div[1]",br,,,"id(""rhf"")/div[1]/br[1]",2,,0,0.0,0.0,0.0,0.0,inline,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""rhf"")/div[1]",div,rhf-container,,"id(""rhf-container"")",2,"{ ""rhfHandlerParams"":{""currentPageType"":""Gateway"",""currentSubPageType"":""desktop"",""excludeAsin"":"""",""f",2,0.0,0.0,0.0,0.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""rhf-container"")",div,,rhf-loading-outer,"id(""rhf-container"")/div[1]",3,,1,0.0,0.0,0.0,0.0,table,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""rhf-container"")/div[1]",table,,rhf-loading-middle,"id(""rhf-container"")/div[1]/table[1]",4,,1,0.0,0.0,0.0,0.0,table,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""rhf-container"")/div[1]/table[1]",tbody,,,"id(""rhf-container"")/div[1]/table[1]/tbody[1]",5,,1,0.0,0.0,0.0,0.0,table-row-group,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""rhf-container"")/div[1]/table[1]/tbody[1]",tr,,,"id(""rhf-container"")/div[1]/table[1]/tbody[1]/tr[1]",6,,1,0.0,0.0,0.0,0.0,table-row,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""rhf-container"")/div[1]/table[1]/tbody[1]/tr[1]",td,,rhf-loading-inner,"id(""rhf-container"")/div[1]/table[1]/tbody[1]/tr[1]/td[1]",7,,1,0.0,0.0,0.0,0.0,table-cell,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""rhf-container"")/div[1]/table[1]/tbody[1]/tr[1]/td[1]",img,,,"id(""rhf-container"")/div[1]/table[1]/tbody[1]/tr[1]/td[1]/img[1]",8,,0,0.0,0.0,0.0,0.0,inline,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""rhf-container"")",div,rhf-context,,"id(""rhf-context"")",3,"{ ""rhfHandlerParams"":{""currentPageType"":""Gateway"",""currentSubPageType"":""desktop"",""excludeAsin"":"""",""f",1,0.0,0.0,0.0,0.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""rhf-context"")",script,,,"id(""rhf-context"")/script[1]",4,"{ ""rhfHandlerParams"":{""currentPageType"":""Gateway"",""currentSubPageType"":""desktop"",""excludeAsin"":"""",""f",0,0.0,0.0,0.0,0.0,none,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""rhf"")/div[1]",noscript,,,"id(""rhf"")/div[1]/noscript[1]",2,"<div class=""rhf-border""> <div class=""rhf-header""> Your recently viewed items and featured recommenda",0,0.0,0.0,0.0,0.0,inline,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""rhf"")/div[1]",div,rhf-error,,"id(""rhf-error"")",2,Your recently viewed items and featured recommendations      ›    View or edit your browsing history,1,0.0,0.0,0.0,0.0,none,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""rhf-error"")",div,,rhf-border,"id(""rhf-error"")/div[1]",3,Your recently viewed items and featured recommendations      ›    View or edit your browsing history,2,0.0,0.0,0.0,0.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""rhf-error"")/div[1]",div,,rhf-header,"id(""rhf-error"")/div[1]/div[1]",4,Your recently viewed items and featured recommendations,0,0.0,0.0,0.0,0.0,inline-block,static,"rgb(68, 68, 68)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""rhf-error"")/div[1]",div,,rhf-footer,"id(""rhf-error"")/div[1]/div[2]",4,"›    View or edit your browsing history     After viewing product detail pages, look here to find an",1,0.0,0.0,0.0,0.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""rhf-error"")/div[1]/div[2]",div,,rvi-container,"id(""rhf-error"")/div[1]/div[2]/div[1]",5,"›    View or edit your browsing history     After viewing product detail pages, look here to find an",2,0.0,0.0,0.0,0.0,block,relative,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""rhf-error"")/div[1]/div[2]/div[1]",div,,ybh-edit,"id(""rhf-error"")/div[1]/div[2]/div[1]/div[1]",6,›    View or edit your browsing history,2,0.0,0.0,0.0,0.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""rhf-error"")/div[1]/div[2]/div[1]/div[1]",div,,ybh-edit-arrow,"id(""rhf-error"")/div[1]/div[2]/div[1]/div[1]/div[1]",7,›,0,0.0,0.0,0.0,0.0,inline-block,static,"rgb(0, 102, 192)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""rhf-error"")/div[1]/div[2]/div[1]/div[1]",div,,ybh-edit-link,"id(""rhf-error"")/div[1]/div[2]/div[1]/div[1]/div[2]",7,View or edit your browsing history,1,0.0,0.0,0.0,0.0,inline-block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""rhf-error"")/div[1]/div[2]/div[1]/div[1]/div[2]",a,,,"id(""rhf-error"")/div[1]/div[2]/div[1]/div[1]/div[2]/a[1]",8,View or edit your browsing history,0,0.0,0.0,0.0,0.0,inline,static,"rgb(0, 113, 133)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""rhf-error"")/div[1]/div[2]/div[1]",span,,no-rvi-message,"id(""rhf-error"")/div[1]/div[2]/div[1]/span[1]",6,"After viewing product detail pages, look here to find an easy way to navigate back to pages you are ",0,0.0,0.0,0.0,0.0,block,static,"rgb(0, 0, 0)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""rhf"")/div[1]",br,,,"id(""rhf"")/div[1]/br[2]",2,,0,0.0,0.0,0.0,0.0,inline,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+30aa2cf1-11c5-4341-85ae-95e9c37ffff5,,,div,navFooter,"navLeftFooter,nav-sprite-v1","id(""navFooter"")",0,"Back to top
+  
+  
+
+
+  
+
+  
+        
+          Get to Know Us
+        
+            
+              Abo",7,0.0,1362.0,1265.0,767.3671875,block,relative,"rgb(15, 17, 17)","rgb(35, 47, 62)",auto,visible
+,30aa2cf1-11c5-4341-85ae-95e9c37ffff5,"id(""navFooter"")",a,navBackToTop,,"id(""navBackToTop"")",1,Back to top,1,0.0,1362.0,1265.0,49.0,inline,static,"rgb(0, 75, 145)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navBackToTop"")",div,,navFooterBackToTop,"id(""navBackToTop"")/div[1]",2,Back to top,1,0.0,1362.0,1265.0,49.0,block,static,"rgb(0, 75, 145)","rgb(55, 71, 90)",auto,visible
+,,"id(""navBackToTop"")/div[1]",span,,navFooterBackToTopText,"id(""navBackToTop"")/div[1]/span[1]",3,Back to top,0,0.0,1362.0,1265.0,49.0,block,static,"rgb(255, 255, 255)","rgba(0, 0, 0, 0)",auto,visible
+,30aa2cf1-11c5-4341-85ae-95e9c37ffff5,"id(""navFooter"")",div,,"navFooterVerticalColumn,navAccessibility","id(""navFooter"")/div[1]",1,"Get to Know Us
+        
+            
+              About Us
+            
+            
+              ",1,137.2734375,1451.0,990.453125,251.171875,table,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[1]",div,,"navFooterVerticalRow,navAccessibility","id(""navFooter"")/div[1]/div[1]",2,"Get to Know Us
+        
+            
+              About Us
+            
+            
+              ",7,137.2734375,1451.0,990.453125,251.171875,table-row,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[1]/div[1]",div,,"navFooterLinkCol,navAccessibility","id(""navFooter"")/div[1]/div[1]/div[1]",3,"Get to Know Us
+        
+            
+              About Us
+            
+            
+              ",2,137.2734375,1451.0,139.109375,251.171875,table-cell,static,"rgb(51, 51, 51)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[1]/div[1]/div[1]",div,,navFooterColHead,"id(""navFooter"")/div[1]/div[1]/div[1]/div[1]",4,Get to Know Us,0,147.2734375,1457.0,119.109375,16.796875,block,static,"rgb(255, 255, 255)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[1]/div[1]/div[1]",ul,,,"id(""navFooter"")/div[1]/div[1]/div[1]/ul[1]",4,"About Us
+            
+            
+              Careers
+            
+            
+              Pre",4,147.2734375,1487.796875,119.109375,97.1875,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[1]/div[1]/div[1]/ul[1]",li,,nav_first,"id(""navFooter"")/div[1]/div[1]/div[1]/ul[1]/li[1]",5,About Us,1,147.2734375,1487.796875,119.109375,16.796875,list-item,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[1]/div[1]/div[1]/ul[1]/li[1]",a,,nav_a,"id(""navFooter"")/div[1]/div[1]/div[1]/ul[1]/li[1]/a[1]",6,About Us,0,147.2734375,1488.296875,57.5859375,15.5,inline,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[1]/div[1]/div[1]/ul[1]",li,,,"id(""navFooter"")/div[1]/div[1]/div[1]/ul[1]/li[2]",5,Careers,1,147.2734375,1514.59375,119.109375,16.796875,list-item,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[1]/div[1]/div[1]/ul[1]/li[2]",a,,nav_a,"id(""navFooter"")/div[1]/div[1]/div[1]/ul[1]/li[2]/a[1]",6,Careers,0,147.2734375,1515.09375,49.796875,15.5,inline,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[1]/div[1]/div[1]/ul[1]",li,,,"id(""navFooter"")/div[1]/div[1]/div[1]/ul[1]/li[3]",5,Press Releases,1,147.2734375,1541.390625,119.109375,16.796875,list-item,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[1]/div[1]/div[1]/ul[1]/li[3]",a,,nav_a,"id(""navFooter"")/div[1]/div[1]/div[1]/ul[1]/li[3]/a[1]",6,Press Releases,0,147.2734375,1541.890625,98.046875,15.5,inline,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[1]/div[1]/div[1]/ul[1]",li,,nav_last,"id(""navFooter"")/div[1]/div[1]/div[1]/ul[1]/li[4]",5,Amazon Science,1,147.2734375,1568.1875,119.109375,16.796875,list-item,static,"rgb(153, 153, 153)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[1]/div[1]/div[1]/ul[1]/li[4]",a,,nav_a,"id(""navFooter"")/div[1]/div[1]/div[1]/ul[1]/li[4]/a[1]",6,Amazon Science,0,147.2734375,1568.6875,105.0546875,15.5,inline,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[1]/div[1]",div,,"navFooterColSpacerInner,navAccessibility","id(""navFooter"")/div[1]/div[1]/div[2]",3,,0,276.3828125,1451.0,99.0390625,251.171875,table-cell,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[1]/div[1]",div,,"navFooterLinkCol,navAccessibility","id(""navFooter"")/div[1]/div[1]/div[3]",3,"Connect with Us
+        
+            
+              Facebook
+            
+            
+             ",2,375.421875,1451.0,145.3359375,251.171875,table-cell,static,"rgb(51, 51, 51)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[1]/div[1]/div[3]",div,,navFooterColHead,"id(""navFooter"")/div[1]/div[1]/div[3]/div[1]",4,Connect with Us,0,385.421875,1457.0,125.3359375,16.796875,block,static,"rgb(255, 255, 255)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[1]/div[1]/div[3]",ul,,,"id(""navFooter"")/div[1]/div[1]/div[3]/ul[1]",4,"Facebook
+            
+            
+              Twitter
+            
+            
+              Ins",3,385.421875,1487.796875,125.3359375,70.390625,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[1]/div[1]/div[3]/ul[1]",li,,nav_first,"id(""navFooter"")/div[1]/div[1]/div[3]/ul[1]/li[1]",5,Facebook,1,385.421875,1487.796875,125.3359375,16.796875,list-item,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[1]/div[1]/div[3]/ul[1]/li[1]",a,,nav_a,"id(""navFooter"")/div[1]/div[1]/div[3]/ul[1]/li[1]/a[1]",6,Facebook,0,385.421875,1488.296875,61.484375,15.5,inline,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[1]/div[1]/div[3]/ul[1]",li,,,"id(""navFooter"")/div[1]/div[1]/div[3]/ul[1]/li[2]",5,Twitter,1,385.421875,1514.59375,125.3359375,16.796875,list-item,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[1]/div[1]/div[3]/ul[1]/li[2]",a,,nav_a,"id(""navFooter"")/div[1]/div[1]/div[3]/ul[1]/li[2]/a[1]",6,Twitter,0,385.421875,1515.09375,41.234375,15.5,inline,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[1]/div[1]/div[3]/ul[1]",li,,nav_last,"id(""navFooter"")/div[1]/div[1]/div[3]/ul[1]/li[3]",5,Instagram,1,385.421875,1541.390625,125.3359375,16.796875,list-item,static,"rgb(153, 153, 153)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[1]/div[1]/div[3]/ul[1]/li[3]",a,,nav_a,"id(""navFooter"")/div[1]/div[1]/div[3]/ul[1]/li[3]/a[1]",6,Instagram,0,385.421875,1541.890625,62.25,15.5,inline,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[1]/div[1]",div,,"navFooterColSpacerInner,navAccessibility","id(""navFooter"")/div[1]/div[1]/div[4]",3,,0,520.7578125,1451.0,99.0390625,251.171875,table-cell,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[1]/div[1]",div,,"navFooterLinkCol,navAccessibility","id(""navFooter"")/div[1]/div[1]/div[5]",3,"Make Money with Us
+        
+            
+              Sell on Amazon
+            
+            
+    ",2,619.796875,1451.0,211.4453125,251.171875,table-cell,static,"rgb(51, 51, 51)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[1]/div[1]/div[5]",div,,navFooterColHead,"id(""navFooter"")/div[1]/div[1]/div[5]/div[1]",4,Make Money with Us,0,629.796875,1457.0,191.4453125,16.796875,block,static,"rgb(255, 255, 255)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[1]/div[1]/div[5]",ul,,,"id(""navFooter"")/div[1]/div[1]/div[5]/ul[1]",4,"Sell on Amazon
+            
+            
+              Sell under Amazon Accelerator
+            
+  ",8,629.796875,1487.796875,191.4453125,204.375,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[1]/div[1]/div[5]/ul[1]",li,,nav_first,"id(""navFooter"")/div[1]/div[1]/div[5]/ul[1]/li[1]",5,Sell on Amazon,1,629.796875,1487.796875,191.4453125,16.796875,list-item,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[1]/div[1]/div[5]/ul[1]/li[1]",a,,nav_a,"id(""navFooter"")/div[1]/div[1]/div[5]/ul[1]/li[1]/a[1]",6,Sell on Amazon,0,629.796875,1488.296875,97.2890625,15.5,inline,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[1]/div[1]/div[5]/ul[1]",li,,,"id(""navFooter"")/div[1]/div[1]/div[5]/ul[1]/li[2]",5,Sell under Amazon Accelerator,1,629.796875,1514.59375,191.4453125,16.796875,list-item,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[1]/div[1]/div[5]/ul[1]/li[2]",a,,nav_a,"id(""navFooter"")/div[1]/div[1]/div[5]/ul[1]/li[2]/a[1]",6,Sell under Amazon Accelerator,0,629.796875,1515.09375,191.4453125,15.5,inline,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[1]/div[1]/div[5]/ul[1]",li,,,"id(""navFooter"")/div[1]/div[1]/div[5]/ul[1]/li[3]",5,Protect and Build Your Brand,1,629.796875,1541.390625,191.4453125,16.796875,list-item,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[1]/div[1]/div[5]/ul[1]/li[3]",a,,nav_a,"id(""navFooter"")/div[1]/div[1]/div[5]/ul[1]/li[3]/a[1]",6,Protect and Build Your Brand,0,629.796875,1541.890625,179.796875,15.5,inline,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[1]/div[1]/div[5]/ul[1]",li,,,"id(""navFooter"")/div[1]/div[1]/div[5]/ul[1]/li[4]",5,Amazon Global Selling,1,629.796875,1568.1875,191.4453125,16.796875,list-item,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[1]/div[1]/div[5]/ul[1]/li[4]",a,,nav_a,"id(""navFooter"")/div[1]/div[1]/div[5]/ul[1]/li[4]/a[1]",6,Amazon Global Selling,0,629.796875,1568.6875,141.640625,15.5,inline,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[1]/div[1]/div[5]/ul[1]",li,,,"id(""navFooter"")/div[1]/div[1]/div[5]/ul[1]/li[5]",5,Become an Affiliate,1,629.796875,1594.984375,191.4453125,16.796875,list-item,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[1]/div[1]/div[5]/ul[1]/li[5]",a,,nav_a,"id(""navFooter"")/div[1]/div[1]/div[5]/ul[1]/li[5]/a[1]",6,Become an Affiliate,0,629.796875,1595.484375,119.6015625,15.5,inline,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[1]/div[1]/div[5]/ul[1]",li,,,"id(""navFooter"")/div[1]/div[1]/div[5]/ul[1]/li[6]",5,Fulfilment by Amazon,1,629.796875,1621.78125,191.4453125,16.796875,list-item,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[1]/div[1]/div[5]/ul[1]/li[6]",a,,nav_a,"id(""navFooter"")/div[1]/div[1]/div[5]/ul[1]/li[6]/a[1]",6,Fulfilment by Amazon,0,629.796875,1622.28125,133.8359375,15.5,inline,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[1]/div[1]/div[5]/ul[1]",li,,,"id(""navFooter"")/div[1]/div[1]/div[5]/ul[1]/li[7]",5,Advertise Your Products,1,629.796875,1648.578125,191.4453125,16.796875,list-item,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[1]/div[1]/div[5]/ul[1]/li[7]",a,,nav_a,"id(""navFooter"")/div[1]/div[1]/div[5]/ul[1]/li[7]/a[1]",6,Advertise Your Products,0,629.796875,1649.078125,149.421875,15.5,inline,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[1]/div[1]/div[5]/ul[1]",li,,nav_last,"id(""navFooter"")/div[1]/div[1]/div[5]/ul[1]/li[8]",5,Amazon Pay on Merchants,1,629.796875,1675.375,191.4453125,16.796875,list-item,static,"rgb(153, 153, 153)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[1]/div[1]/div[5]/ul[1]/li[8]",a,,nav_a,"id(""navFooter"")/div[1]/div[1]/div[5]/ul[1]/li[8]/a[1]",6,Amazon Pay on Merchants,0,629.796875,1675.875,168.0859375,15.5,inline,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[1]/div[1]",div,,"navFooterColSpacerInner,navAccessibility","id(""navFooter"")/div[1]/div[1]/div[6]",3,,0,831.2421875,1451.0,99.0390625,251.171875,table-cell,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[1]/div[1]",div,,"navFooterLinkCol,navAccessibility","id(""navFooter"")/div[1]/div[1]/div[7]",3,"Let Us Help You
+        
+            
+              COVID-19 and Amazon
+            
+            
+  ",2,930.28125,1451.0,197.4453125,251.171875,table-cell,static,"rgb(51, 51, 51)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[1]/div[1]/div[7]",div,,navFooterColHead,"id(""navFooter"")/div[1]/div[1]/div[7]/div[1]",4,Let Us Help You,0,940.28125,1457.0,177.4453125,16.796875,block,static,"rgb(255, 255, 255)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[1]/div[1]/div[7]",ul,,,"id(""navFooter"")/div[1]/div[1]/div[7]/ul[1]",4,"COVID-19 and Amazon
+            
+            
+              Your Account
+            
+            
+ ",7,940.28125,1487.796875,177.4453125,177.578125,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[1]/div[1]/div[7]/ul[1]",li,,nav_first,"id(""navFooter"")/div[1]/div[1]/div[7]/ul[1]/li[1]",5,COVID-19 and Amazon,1,940.28125,1487.796875,177.4453125,16.796875,list-item,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[1]/div[1]/div[7]/ul[1]/li[1]",a,,nav_a,"id(""navFooter"")/div[1]/div[1]/div[7]/ul[1]/li[1]/a[1]",6,COVID-19 and Amazon,0,940.28125,1488.296875,146.296875,15.5,inline,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[1]/div[1]/div[7]/ul[1]",li,,,"id(""navFooter"")/div[1]/div[1]/div[7]/ul[1]/li[2]",5,Your Account,1,940.28125,1514.59375,177.4453125,16.796875,list-item,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[1]/div[1]/div[7]/ul[1]/li[2]",a,,nav_a,"id(""navFooter"")/div[1]/div[1]/div[7]/ul[1]/li[2]/a[1]",6,Your Account,0,940.28125,1515.09375,81.9921875,15.5,inline,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[1]/div[1]/div[7]/ul[1]",li,,,"id(""navFooter"")/div[1]/div[1]/div[7]/ul[1]/li[3]",5,Returns Centre,1,940.28125,1541.390625,177.4453125,16.796875,list-item,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[1]/div[1]/div[7]/ul[1]/li[3]",a,,nav_a,"id(""navFooter"")/div[1]/div[1]/div[7]/ul[1]/li[3]/a[1]",6,Returns Centre,0,940.28125,1541.890625,94.9375,15.5,inline,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[1]/div[1]/div[7]/ul[1]",li,,,"id(""navFooter"")/div[1]/div[1]/div[7]/ul[1]/li[4]",5,100% Purchase Protection,1,940.28125,1568.1875,177.4453125,16.796875,list-item,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[1]/div[1]/div[7]/ul[1]/li[4]",a,,nav_a,"id(""navFooter"")/div[1]/div[1]/div[7]/ul[1]/li[4]/a[1]",6,100% Purchase Protection,0,940.28125,1568.6875,165.765625,15.5,inline,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[1]/div[1]/div[7]/ul[1]",li,,,"id(""navFooter"")/div[1]/div[1]/div[7]/ul[1]/li[5]",5,Amazon App Download,1,940.28125,1594.984375,177.4453125,16.796875,list-item,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[1]/div[1]/div[7]/ul[1]/li[5]",a,,nav_a,"id(""navFooter"")/div[1]/div[1]/div[7]/ul[1]/li[5]/a[1]",6,Amazon App Download,0,940.28125,1595.484375,145.5390625,15.5,inline,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[1]/div[1]/div[7]/ul[1]",li,,,"id(""navFooter"")/div[1]/div[1]/div[7]/ul[1]/li[6]",5,Amazon Assistant Download,1,940.28125,1621.78125,177.4453125,16.796875,list-item,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[1]/div[1]/div[7]/ul[1]/li[6]",a,,nav_a,"id(""navFooter"")/div[1]/div[1]/div[7]/ul[1]/li[6]/a[1]",6,Amazon Assistant Download,0,940.28125,1622.28125,177.4296875,15.5,inline,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[1]/div[1]/div[7]/ul[1]",li,,nav_last,"id(""navFooter"")/div[1]/div[1]/div[7]/ul[1]/li[7]",5,Help,1,940.28125,1648.578125,177.4453125,16.796875,list-item,static,"rgb(153, 153, 153)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[1]/div[1]/div[7]/ul[1]/li[7]",a,,nav_a,"id(""navFooter"")/div[1]/div[1]/div[7]/ul[1]/li[7]/a[1]",6,Help,0,940.28125,1649.078125,28.796875,15.5,inline,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,30aa2cf1-11c5-4341-85ae-95e9c37ffff5,"id(""navFooter"")",div,,nav-footer-line,"id(""navFooter"")/div[2]",1,,0,0.0,1742.171875,1265.0,1.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,30aa2cf1-11c5-4341-85ae-95e9c37ffff5,"id(""navFooter"")",div,,"navFooterLine,navFooterLinkLine,navFooterPadItemLine","id(""navFooter"")/div[3]",1,"#icp-touch-link-language { display: none; }
+
+
+
+
+  English",2,132.5,1753.171875,1000.0,68.0,block,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[3]",span,,,"id(""navFooter"")/div[3]/span[1]",2,,1,483.0234375,1753.171875,90.390625,68.0,inline-block,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[3]/span[1]",div,,"navFooterLine,navFooterLogoLine","id(""navFooter"")/div[3]/span[1]/div[1]",3,,1,490.21875,1783.171875,76.0,23.0,block,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[3]/span[1]/div[1]",a,,,"id(""navFooter"")/div[3]/span[1]/div[1]/a[1]",4,,1,490.21875,1776.171875,76.0,36.5,inline,static,"rgb(0, 75, 145)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[3]/span[1]/div[1]/a[1]",div,,"nav-logo-base,nav-sprite","id(""navFooter"")/div[3]/span[1]/div[1]/a[1]/div[1]",5,,0,490.21875,1783.171875,76.0,23.0,block,static,"rgb(0, 75, 145)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[3]",span,,icp-container-desktop,"id(""navFooter"")/div[3]/span[2]",2,"#icp-touch-link-language { display: none; }
+
+
+
+
+  English",1,646.75,1771.171875,135.21875,33.5,inline-block,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[3]/span[2]",div,,navFooterLine,"id(""navFooter"")/div[3]/span[2]/div[1]",3,"#icp-touch-link-language { display: none; }
+
+
+
+
+  English",2,653.9453125,1771.171875,120.828125,33.5,block,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[3]/span[2]/div[1]",style,,,"id(""navFooter"")/div[3]/span[2]/div[1]/style[1]",4,#icp-touch-link-language { display: none; },0,0.0,0.0,0.0,0.0,none,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[3]/span[2]/div[1]",a,icp-touch-link-language,icp-button,"id(""icp-touch-link-language"")",4,English,3,653.9453125,1771.171875,116.828125,33.5,inline-block,static,"rgb(0, 75, 145)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""icp-touch-link-language"")",div,,"icp-nav-globe-img-2,icp-button-globe-2","id(""icp-touch-link-language"")/div[1]",5,,0,662.9453125,1780.171875,15.0,15.0,inline-block,relative,"rgb(0, 75, 145)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""icp-touch-link-language"")",span,,icp-color-base,"id(""icp-touch-link-language"")/span[1]",5,English,0,677.9453125,1779.671875,58.234375,18.0,inline-block,static,"rgb(204, 204, 204)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""icp-touch-link-language"")",span,,"nav-arrow,icp-up-down-arrow","id(""icp-touch-link-language"")/span[2]",5,,0,748.1796875,1781.171875,15.59375,12.0,inline-block,relative,"rgb(0, 75, 145)","rgba(0, 0, 0, 0)",auto,visible
+,30aa2cf1-11c5-4341-85ae-95e9c37ffff5,"id(""navFooter"")",div,,"navFooterLine,navFooterLinkLine,navFooterPadItemLine","id(""navFooter"")/div[4]",1,AustraliaBrazilCanadaChinaFranceGermanyItalyJapanMexicoNetherlandsPolandSingaporeSpainTurkeyUnited A,1,132.5,1831.171875,1000.0,36.0,block,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[4]",ul,,,"id(""navFooter"")/div[4]/ul[1]",2,AustraliaBrazilCanadaChinaFranceGermanyItalyJapanMexicoNetherlandsPolandSingaporeSpainTurkeyUnited A,17,150.5,1831.171875,982.0,36.0,flex,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[4]/ul[1]",li,,nav_first,"id(""navFooter"")/div[4]/ul[1]/li[1]",3,Australia,1,200.2578125,1831.171875,61.078125,18.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[4]/ul[1]/li[1]",a,,nav_a,"id(""navFooter"")/div[4]/ul[1]/li[1]/a[1]",4,Australia,0,200.2578125,1833.171875,61.078125,13.5,inline,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[4]/ul[1]",li,,,"id(""navFooter"")/div[4]/ul[1]/li[2]",3,Brazil,1,261.3359375,1831.171875,44.3984375,18.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[4]/ul[1]/li[2]",a,,nav_a,"id(""navFooter"")/div[4]/ul[1]/li[2]/a[1]",4,Brazil,0,261.3359375,1833.171875,44.3984375,13.5,inline,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[4]/ul[1]",li,,,"id(""navFooter"")/div[4]/ul[1]/li[3]",3,Canada,1,305.734375,1831.171875,56.4296875,18.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[4]/ul[1]/li[3]",a,,nav_a,"id(""navFooter"")/div[4]/ul[1]/li[3]/a[1]",4,Canada,0,305.734375,1833.171875,56.4296875,13.5,inline,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[4]/ul[1]",li,,,"id(""navFooter"")/div[4]/ul[1]/li[4]",3,China,1,362.1640625,1831.171875,45.75,18.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[4]/ul[1]/li[4]",a,,nav_a,"id(""navFooter"")/div[4]/ul[1]/li[4]/a[1]",4,China,0,362.1640625,1833.171875,45.75,13.5,inline,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[4]/ul[1]",li,,,"id(""navFooter"")/div[4]/ul[1]/li[5]",3,France,1,407.9140625,1831.171875,51.7421875,18.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[4]/ul[1]/li[5]",a,,nav_a,"id(""navFooter"")/div[4]/ul[1]/li[5]/a[1]",4,France,0,407.9140625,1833.171875,51.7421875,13.5,inline,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[4]/ul[1]",li,,,"id(""navFooter"")/div[4]/ul[1]/li[6]",3,Germany,1,459.65625,1831.171875,63.7421875,18.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[4]/ul[1]/li[6]",a,,nav_a,"id(""navFooter"")/div[4]/ul[1]/li[6]/a[1]",4,Germany,0,459.65625,1833.171875,63.7421875,13.5,inline,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[4]/ul[1]",li,,,"id(""navFooter"")/div[4]/ul[1]/li[7]",3,Italy,1,523.3984375,1831.171875,36.3984375,18.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[4]/ul[1]/li[7]",a,,nav_a,"id(""navFooter"")/div[4]/ul[1]/li[7]/a[1]",4,Italy,0,523.3984375,1833.171875,36.3984375,13.5,inline,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[4]/ul[1]",li,,,"id(""navFooter"")/div[4]/ul[1]/li[8]",3,Japan,1,559.796875,1831.171875,47.0859375,18.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[4]/ul[1]/li[8]",a,,nav_a,"id(""navFooter"")/div[4]/ul[1]/li[8]/a[1]",4,Japan,0,559.796875,1833.171875,47.0859375,13.5,inline,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[4]/ul[1]",li,,,"id(""navFooter"")/div[4]/ul[1]/li[9]",3,Mexico,1,606.8828125,1831.171875,52.40625,18.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[4]/ul[1]/li[9]",a,,nav_a,"id(""navFooter"")/div[4]/ul[1]/li[9]/a[1]",4,Mexico,0,606.8828125,1833.171875,52.40625,13.5,inline,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[4]/ul[1]",li,,,"id(""navFooter"")/div[4]/ul[1]/li[10]",3,Netherlands,1,659.2890625,1831.171875,79.1015625,18.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[4]/ul[1]/li[10]",a,,nav_a,"id(""navFooter"")/div[4]/ul[1]/li[10]/a[1]",4,Netherlands,0,659.2890625,1833.171875,79.1015625,13.5,inline,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[4]/ul[1]",li,,,"id(""navFooter"")/div[4]/ul[1]/li[11]",3,Poland,1,738.390625,1831.171875,51.7578125,18.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[4]/ul[1]/li[11]",a,,nav_a,"id(""navFooter"")/div[4]/ul[1]/li[11]/a[1]",4,Poland,0,738.390625,1833.171875,51.7578125,13.5,inline,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[4]/ul[1]",li,,,"id(""navFooter"")/div[4]/ul[1]/li[12]",3,Singapore,1,790.1484375,1831.171875,69.1015625,18.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[4]/ul[1]/li[12]",a,,nav_a,"id(""navFooter"")/div[4]/ul[1]/li[12]/a[1]",4,Singapore,0,790.1484375,1833.171875,69.1015625,13.5,inline,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[4]/ul[1]",li,,,"id(""navFooter"")/div[4]/ul[1]/li[13]",3,Spain,1,859.25,1831.171875,45.0859375,18.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[4]/ul[1]/li[13]",a,,nav_a,"id(""navFooter"")/div[4]/ul[1]/li[13]/a[1]",4,Spain,0,859.25,1833.171875,45.0859375,13.5,inline,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[4]/ul[1]",li,,,"id(""navFooter"")/div[4]/ul[1]/li[14]",3,Turkey,1,904.3359375,1831.171875,50.625,18.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[4]/ul[1]/li[14]",a,,nav_a,"id(""navFooter"")/div[4]/ul[1]/li[14]/a[1]",4,Turkey,0,904.3359375,1833.171875,50.625,13.5,inline,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[4]/ul[1]",li,,,"id(""navFooter"")/div[4]/ul[1]/li[15]",3,United Arab Emirates,1,954.9609375,1831.171875,127.78125,18.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[4]/ul[1]/li[15]",a,,nav_a,"id(""navFooter"")/div[4]/ul[1]/li[15]/a[1]",4,United Arab Emirates,0,954.9609375,1833.171875,127.78125,13.5,inline,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[4]/ul[1]",li,,,"id(""navFooter"")/div[4]/ul[1]/li[16]",3,United Kingdom,1,548.390625,1849.171875,99.7734375,18.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[4]/ul[1]/li[16]",a,,nav_a,"id(""navFooter"")/div[4]/ul[1]/li[16]/a[1]",4,United Kingdom,0,548.390625,1851.171875,99.7734375,13.5,inline,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[4]/ul[1]",li,,nav_last,"id(""navFooter"")/div[4]/ul[1]/li[17]",3,United States,1,648.1640625,1849.171875,86.4375,18.0,block,static,"rgb(153, 153, 153)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[4]/ul[1]/li[17]",a,,nav_a,"id(""navFooter"")/div[4]/ul[1]/li[17]/a[1]",4,United States,0,648.1640625,1851.171875,86.4375,13.5,inline,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,30aa2cf1-11c5-4341-85ae-95e9c37ffff5,"id(""navFooter"")",div,,"navFooterLine,navFooterLinkLine,navFooterDescLine","id(""navFooter"")/div[5]",1,"AbeBooksBooks, art& collectibles
+Amazon Web ServicesScalable CloudComputing Services
+AudibleDownload",1,0.0,1897.171875,1265.0,156.1953125,block,static,"rgb(221, 221, 221)","rgb(19, 26, 34)",auto,visible
+,,"id(""navFooter"")/div[5]",table,,navFooterMoreOnAmazon,"id(""navFooter"")/div[5]/table[1]",2,"AbeBooksBooks, art& collectibles
+Amazon Web ServicesScalable CloudComputing Services
+AudibleDownload",1,132.5,1927.171875,1000.0,96.1953125,table,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[5]/table[1]",tbody,,,"id(""navFooter"")/div[5]/table[1]/tbody[1]",3,"AbeBooksBooks, art& collectibles
+Amazon Web ServicesScalable CloudComputing Services
+AudibleDownload",3,132.5,1927.171875,1000.0,96.1953125,table-row-group,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[5]/table[1]/tbody[1]",tr,,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[1]",4,"AbeBooksBooks, art& collectibles
+Amazon Web ServicesScalable CloudComputing Services
+AudibleDownload",9,132.5,1927.171875,1000.0,40.296875,table-row,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[1]",td,,navFooterDescItem,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[1]/td[1]",5,"AbeBooksBooks, art& collectibles",1,132.5,1927.171875,134.0625,40.296875,table-cell,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[1]/td[1]",a,,nav_a,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[1]/td[1]/a[1]",6,"AbeBooksBooks, art& collectibles",2,141.5,1927.171875,70.03125,40.0,inline,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[1]/td[1]/a[1]",br,,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[1]/td[1]/a[1]/br[1]",7,,0,196.203125,1927.171875,0.0,13.5,inline,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[1]/td[1]/a[1]",span,,navFooterDescText,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[1]/td[1]/a[1]/span[1]",7,"Books, art& collectibles",1,141.5,1940.96875,70.03125,26.40625,inline-block,static,"rgb(153, 153, 153)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[1]/td[1]/a[1]/span[1]",br,,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[1]/td[1]/a[1]/span[1]/br[1]",8,,0,195.5234375,1940.46875,0.0,13.5,inline,static,"rgb(153, 153, 153)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[1]",td,,navFooterDescSpacer,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[1]/td[2]",5,,0,266.5625,1927.171875,40.0,40.296875,table-cell,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[1]",td,,navFooterDescItem,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[1]/td[3]",5,Amazon Web ServicesScalable CloudComputing Services,1,306.5625,1927.171875,182.828125,40.296875,table-cell,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[1]/td[3]",a,,nav_a,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[1]/td[3]/a[1]",6,Amazon Web ServicesScalable CloudComputing Services,2,315.5625,1927.171875,121.1640625,40.0,inline,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[1]/td[3]/a[1]",br,,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[1]/td[3]/a[1]/br[1]",7,,0,436.7265625,1927.171875,0.0,13.5,inline,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[1]/td[3]/a[1]",span,,navFooterDescText,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[1]/td[3]/a[1]/span[1]",7,Scalable CloudComputing Services,1,315.5625,1940.96875,107.3828125,26.40625,inline-block,static,"rgb(153, 153, 153)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[1]/td[3]/a[1]/span[1]",br,,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[1]/td[3]/a[1]/span[1]/br[1]",8,,0,396.28125,1940.46875,0.0,13.5,inline,static,"rgb(153, 153, 153)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[1]",td,,navFooterDescSpacer,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[1]/td[4]",5,,0,489.390625,1927.171875,40.0,40.296875,table-cell,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[1]",td,,navFooterDescItem,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[1]/td[5]",5,AudibleDownloadAudio Books,1,529.390625,1927.171875,154.203125,40.296875,table-cell,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[1]/td[5]",a,,nav_a,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[1]/td[5]/a[1]",6,AudibleDownloadAudio Books,2,538.390625,1927.171875,67.3828125,40.0,inline,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[1]/td[5]/a[1]",br,,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[1]/td[5]/a[1]/br[1]",7,,0,578.421875,1927.171875,0.0,13.5,inline,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[1]/td[5]/a[1]",span,,navFooterDescText,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[1]/td[5]/a[1]/span[1]",7,DownloadAudio Books,1,538.390625,1940.96875,67.3828125,26.40625,inline-block,static,"rgb(153, 153, 153)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[1]/td[5]/a[1]/span[1]",br,,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[1]/td[5]/a[1]/span[1]/br[1]",8,,0,591.7578125,1940.46875,0.0,13.5,inline,static,"rgb(153, 153, 153)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[1]",td,,navFooterDescSpacer,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[1]/td[6]",5,,0,683.59375,1927.171875,40.0,40.296875,table-cell,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[1]",td,,navFooterDescItem,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[1]/td[7]",5,DPReviewDigitalPhotography,1,723.59375,1927.171875,255.875,40.296875,table-cell,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[1]/td[7]",a,,nav_a,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[1]/td[7]/a[1]",6,DPReviewDigitalPhotography,2,732.59375,1927.171875,68.0546875,40.0,inline,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[1]/td[7]/a[1]",br,,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[1]/td[7]/a[1]/br[1]",7,,0,788.609375,1927.171875,0.0,13.5,inline,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[1]/td[7]/a[1]",span,,navFooterDescText,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[1]/td[7]/a[1]/span[1]",7,DigitalPhotography,1,732.59375,1940.96875,68.0546875,26.40625,inline-block,static,"rgb(153, 153, 153)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[1]/td[7]/a[1]/span[1]",br,,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[1]/td[7]/a[1]/span[1]/br[1]",8,,0,765.9453125,1940.46875,0.0,13.5,inline,static,"rgb(153, 153, 153)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[1]",td,,navFooterDescSpacer,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[1]/td[8]",5,,0,979.46875,1927.171875,40.0,40.296875,table-cell,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[1]",td,,navFooterDescItem,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[1]/td[9]",5,"IMDbMovies, TV& Celebrities",1,1019.46875,1927.171875,113.03125,40.296875,table-cell,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[1]/td[9]",a,,nav_a,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[1]/td[9]/a[1]",6,"IMDbMovies, TV& Celebrities",2,1028.46875,1927.171875,68.03125,40.0,inline,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[1]/td[9]/a[1]",br,,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[1]/td[9]/a[1]/br[1]",7,,0,1057.140625,1927.171875,0.0,13.5,inline,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[1]/td[9]/a[1]",span,,navFooterDescText,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[1]/td[9]/a[1]/span[1]",7,"Movies, TV& Celebrities",1,1028.46875,1940.96875,68.03125,26.40625,inline-block,static,"rgb(153, 153, 153)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[1]/td[9]/a[1]/span[1]",br,,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[1]/td[9]/a[1]/span[1]/br[1]",8,,0,1088.265625,1940.46875,0.0,13.5,inline,static,"rgb(153, 153, 153)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[5]/table[1]/tbody[1]",tr,,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[2]",4,,1,132.5,1967.46875,1000.0,15.6015625,table-row,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[2]",td,,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[2]/td[1]",5,,0,132.5,1967.46875,134.0625,15.6015625,table-cell,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[5]/table[1]/tbody[1]",tr,,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[3]",4,"ShopbopDesignerFashion Brands
+	
+Amazon BusinessEverything ForYour Business
+Prime Now 2-Hour Delivery",9,132.5,1983.0703125,1000.0,40.296875,table-row,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[3]",td,,navFooterDescItem,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[3]/td[1]",5,ShopbopDesignerFashion Brands,1,132.5,1983.0703125,134.0625,40.296875,table-cell,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[3]/td[1]",a,,nav_a,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[3]/td[1]/a[1]",6,ShopbopDesignerFashion Brands,2,141.5,1983.0703125,84.046875,40.0,inline,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[3]/td[1]/a[1]",br,,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[3]/td[1]/a[1]/br[1]",7,,0,189.546875,1983.0703125,0.0,13.5,inline,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[3]/td[1]/a[1]",span,,navFooterDescText,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[3]/td[1]/a[1]/span[1]",7,DesignerFashion Brands,1,141.5,1996.8671875,84.046875,26.40625,inline-block,static,"rgb(153, 153, 153)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[3]/td[1]/a[1]/span[1]",br,,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[3]/td[1]/a[1]/span[1]/br[1]",8,,0,189.5234375,1996.3671875,0.0,13.5,inline,static,"rgb(153, 153, 153)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[3]",td,,navFooterDescSpacer,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[3]/td[2]",5,,0,266.5625,1983.0703125,40.0,40.296875,table-cell,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[3]",td,,navFooterDescItem,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[3]/td[3]",5,Amazon BusinessEverything ForYour Business,1,306.5625,1983.0703125,182.828125,40.296875,table-cell,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[3]/td[3]",a,,nav_a,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[3]/td[3]/a[1]",6,Amazon BusinessEverything ForYour Business,2,315.5625,1983.0703125,96.046875,40.0,inline,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[3]/td[3]/a[1]",br,,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[3]/td[3]/a[1]/br[1]",7,,0,411.609375,1983.0703125,0.0,13.5,inline,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[3]/td[3]/a[1]",span,,navFooterDescText,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[3]/td[3]/a[1]/span[1]",7,Everything ForYour Business,1,315.5625,1996.8671875,78.03125,26.40625,inline-block,static,"rgb(153, 153, 153)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[3]/td[3]/a[1]/span[1]",br,,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[3]/td[3]/a[1]/span[1]/br[1]",8,,0,393.59375,1996.3671875,0.0,13.5,inline,static,"rgb(153, 153, 153)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[3]",td,,navFooterDescSpacer,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[3]/td[4]",5,,0,489.390625,1983.0703125,40.0,40.296875,table-cell,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[3]",td,,navFooterDescItem,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[3]/td[5]",5,Prime Now 2-Hour Deliveryon Everyday Items,1,529.390625,1983.0703125,154.203125,40.296875,table-cell,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[3]/td[5]",a,,nav_a,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[3]/td[5]/a[1]",6,Prime Now 2-Hour Deliveryon Everyday Items,2,538.390625,1983.0703125,99.375,40.0,inline,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[3]/td[5]/a[1]",br,,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[3]/td[5]/a[1]/br[1]",7,,0,597.0703125,1983.0703125,0.0,13.5,inline,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[3]/td[5]/a[1]",span,,navFooterDescText,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[3]/td[5]/a[1]/span[1]",7,2-Hour Deliveryon Everyday Items,1,538.390625,1996.8671875,99.375,26.40625,inline-block,static,"rgb(153, 153, 153)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[3]/td[5]/a[1]/span[1]",br,,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[3]/td[5]/a[1]/span[1]/br[1]",8,,0,621.75,1996.3671875,0.0,13.5,inline,static,"rgb(153, 153, 153)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[3]",td,,navFooterDescSpacer,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[3]/td[6]",5,,0,683.59375,1983.0703125,40.0,40.296875,table-cell,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[3]",td,,navFooterDescItem,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[3]/td[7]",5,"Amazon Prime Music90 million songs, ad-freeOver 15 million podcast episodes",1,723.59375,1983.0703125,255.875,40.296875,table-cell,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[3]/td[7]",a,,nav_a,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[3]/td[7]/a[1]",6,"Amazon Prime Music90 million songs, ad-freeOver 15 million podcast episodes",2,732.59375,1983.0703125,176.765625,40.0,inline,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[3]/td[7]/a[1]",br,,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[3]/td[7]/a[1]/br[1]",7,,0,845.9609375,1983.0703125,0.0,13.5,inline,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[3]/td[7]/a[1]",span,,navFooterDescText,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[3]/td[7]/a[1]/span[1]",7,"90 million songs, ad-freeOver 15 million podcast episodes",1,732.59375,1996.8671875,176.765625,26.40625,inline-block,static,"rgb(153, 153, 153)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[3]/td[7]/a[1]/span[1]",br,,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[3]/td[7]/a[1]/span[1]/br[1]",8,,0,863.328125,1996.3671875,0.0,13.5,inline,static,"rgb(153, 153, 153)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[3]",td,,navFooterDescSpacer,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[3]/td[8]",5,,0,979.46875,1983.0703125,40.0,40.296875,table-cell,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[3]",td,,navFooterDescItem,"id(""navFooter"")/div[5]/table[1]/tbody[1]/tr[3]/td[9]",5,,0,1019.46875,1983.0703125,113.03125,40.296875,table-cell,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,30aa2cf1-11c5-4341-85ae-95e9c37ffff5,"id(""navFooter"")",div,,"navFooterLine,navFooterLinkLine,navFooterPadItemLine,navFooterCopyright","id(""navFooter"")/div[6]",1,"Conditions of Use & SalePrivacy NoticeInterest-Based Ads© 1996-2023, Amazon.com, Inc. or its affilia",2,0.0,2053.3671875,1265.0,76.0,block,static,"rgb(221, 221, 221)","rgb(19, 26, 34)",auto,visible
+,,"id(""navFooter"")/div[6]",ul,,,"id(""navFooter"")/div[6]/ul[1]",2,Conditions of Use & SalePrivacy NoticeInterest-Based Ads,3,18.0,2063.3671875,1247.0,18.0,flex,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[6]/ul[1]",li,,nav_first,"id(""navFooter"")/div[6]/ul[1]/li[1]",3,Conditions of Use & Sale,1,464.171875,2063.3671875,147.796875,18.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[6]/ul[1]/li[1]",a,,nav_a,"id(""navFooter"")/div[6]/ul[1]/li[1]/a[1]",4,Conditions of Use & Sale,0,464.171875,2065.3671875,147.796875,13.5,inline,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[6]/ul[1]",li,,,"id(""navFooter"")/div[6]/ul[1]/li[2]",3,Privacy Notice,1,611.96875,2063.3671875,91.078125,18.0,block,static,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[6]/ul[1]/li[2]",a,,nav_a,"id(""navFooter"")/div[6]/ul[1]/li[2]/a[1]",4,Privacy Notice,0,611.96875,2065.3671875,91.078125,13.5,inline,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[6]/ul[1]",li,,nav_last,"id(""navFooter"")/div[6]/ul[1]/li[3]",3,Interest-Based Ads,1,703.046875,2063.3671875,115.78125,18.0,block,static,"rgb(153, 153, 153)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[6]/ul[1]/li[3]",a,,nav_a,"id(""navFooter"")/div[6]/ul[1]/li[3]/a[1]",4,Interest-Based Ads,0,703.046875,2065.3671875,115.78125,13.5,inline,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+,,"id(""navFooter"")/div[6]",span,,,"id(""navFooter"")/div[6]/span[1]",2,"© 1996-2023, Amazon.com, Inc. or its affiliates",0,501.2578125,2081.3671875,262.4765625,18.0,inline-block,static,"rgb(221, 221, 221)","rgba(0, 0, 0, 0)",auto,visible
+bdb836f2-a272-4ae7-a056-edd580c5bdea,,,div,sis_pixel_r2,,"id(""sis_pixel_r2"")",0,,0,-1000000.0,-1000000.0,0.0,1.0,block,absolute,"rgb(15, 17, 17)","rgba(0, 0, 0, 0)",auto,visible
